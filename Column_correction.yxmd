@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\malho\OneDrive\Documents\Export the score in categories of exam Chinmaya International Residential School_11-12(3rdJune2024.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Export the score in categories of exam Chinmaya International Residential School_11-12(3rdJune2024.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\OneDrive\Documents\Export the score in categories of exam Chinmaya International Residential School_11-12(3rdJune2024.csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\OneDrive\Documents\Export the score in categories of exam Chinmaya International Residential School_11-12(3rdJune2024.csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\OneDrive\Documents\Export the score in categories of exam Chinmaya International Residential School_11-12(3rdJune2024.csv" type="V_WString" />
+            <Field name="Registration Number" size="254" source="File: C:\Users\malho\OneDrive\Documents\Export the score in categories of exam Chinmaya International Residential School_11-12(3rdJune2024.csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\OneDrive\Documents\Export the score in categories of exam Chinmaya International Residential School_11-12(3rdJune2024.csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\OneDrive\Documents\Export the score in categories of exam Chinmaya International Residential School_11-12(3rdJune2024.csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\OneDrive\Documents\Export the score in categories of exam Chinmaya International Residential School_11-12(3rdJune2024.csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\OneDrive\Documents\Export the score in categories of exam Chinmaya International Residential School_11-12(3rdJune2024.csv" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\OneDrive\Documents\Export the score in categories of exam Chinmaya International Residential School_11-12(3rdJune2024.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\OneDrive\Documents\Export the score in categories of exam Chinmaya International Residential School_11-12(3rdJune2024.csv" type="V_WString" />
+            <Field name="Loans &amp; CreditsScore" size="254" source="File: C:\Users\malho\OneDrive\Documents\Export the score in categories of exam Chinmaya International Residential School_11-12(3rdJune2024.csv" type="V_WString" />
+            <Field name="Loans &amp; CreditsScores" size="254" source="File: C:\Users\malho\OneDrive\Documents\Export the score in categories of exam Chinmaya International Residential School_11-12(3rdJune2024.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\OneDrive\Documents\Export the score in categories of exam Chinmaya International Residential School_11-12(3rdJune2024.csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\OneDrive\Documents\Export the score in categories of exam Chinmaya International Residential School_11-12(3rdJune2024.csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\OneDrive\Documents\Export the score in categories of exam Chinmaya International Residential School_11-12(3rdJune2024.csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\OneDrive\Documents\Export the score in categories of exam Chinmaya International Residential School_11-12(3rdJune2024.csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\OneDrive\Documents\Export the score in categories of exam Chinmaya International Residential School_11-12(3rdJune2024.csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\OneDrive\Documents\Export the score in categories of exam Chinmaya International Residential School_11-12(3rdJune2024.csv" type="V_WString" />
+            <Field name="Loans and credits.Score" size="254" source="File: C:\Users\malho\OneDrive\Documents\Export the score in categories of exam Chinmaya International Residential School_11-12(3rdJune2024.csv" type="V_WString" />
+            <Field name="Loans and credits.Scores" size="254" source="File: C:\Users\malho\OneDrive\Documents\Export the score in categories of exam Chinmaya International Residential School_11-12(3rdJune2024.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="234" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToNumber([Loans &amp; CreditsScore])+ToNumber([Loans and credits.Score])" field="Loans &amp; CreditsScore" size="254" type="V_WString" enabled="true" />
+            <FormulaField expression="ToNumber([Loans &amp; CreditsScores])+ToNumber([Loans and credits.Scores])" field="Loans &amp; CreditsScores" size="254" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Loans &amp; CreditsScore = ToNumber([Loans &amp; CreditsScore])+ToNumber([Loans and cred...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="354" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Loans and credits.Score" selected="False" />
+            <SelectField field="Loans and credits.Scores" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="462" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\malho\OneDrive\Documents\Corrected_file.xlsx|||Sheet1</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <UNCLocal>False</UNCLocal>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Corrected_file.xlsx
+Query=Sheet1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Column_correction</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="63b7cffe-5978-41b9-8932-f1fc2d064ea1" />
+      <Telemetry>
+        <PreviousWorkflowId value="58fa2af7-f248-41af-8351-54556f73ec57" />
+        <OriginWorkflowId value="256f265a-aa2d-4dc5-9efb-c1c7a49f1068" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
