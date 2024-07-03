@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="52" y="81" />
+        <Position x="52" y="66" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -29,6 +29,9 @@
 Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
           <Left value="True" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Candidates" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
@@ -50,7 +53,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="52" y="249" />
+        <Position x="52" y="234" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -83,6 +86,9 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
           <DefaultAnnotationText>Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv</DefaultAnnotationText>
           <Left value="True" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Candidates" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
@@ -110,7 +116,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="568" y="237" />
+        <Position x="568" y="222" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -147,7 +153,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-        <Position x="667" y="232" />
+        <Position x="662" y="217" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -196,7 +202,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="827" y="67" />
+        <Position x="827" y="52" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -214,7 +220,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="917" y="232" />
+        <Position x="917" y="217" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -232,7 +238,61 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-        <Position x="617" y="67" />
+        <Position x="617" y="52" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="StudentUsername" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Unique">
+          <RecordInfo>
+            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="TimeTaken" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
+            <Field name="Money" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Banking" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Investments" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Tax_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Tax_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Duplicates">
+          <RecordInfo>
+            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="TimeTaken" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
+            <Field name="Money" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Banking" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Investments" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Tax_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Tax_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="767" y="217" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -286,7 +346,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="307" y="172" />
+        <Position x="307" y="157" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -402,7 +462,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="20">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="427" y="52" />
+        <Position x="427" y="37" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -516,60 +576,6 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
     </Node>
-    <Node ToolID="21">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-        <Position x="757" y="232" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <UniqueFields>
-            <Field field="StudentUsername" />
-          </UniqueFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Unique">
-          <RecordInfo>
-            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="TimeTaken" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
-            <Field name="Money" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-          </RecordInfo>
-        </MetaInfo>
-        <MetaInfo connection="Duplicates">
-          <RecordInfo>
-            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="TimeTaken" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
-            <Field name="Money" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
-    </Node>
   </Nodes>
   <Connections>
     <Connection>
@@ -586,11 +592,15 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="12" Connection="Output" />
-      <Destination ToolID="21" Connection="Input" />
+      <Destination ToolID="18" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="17" Connection="Unique" />
       <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Unique" />
+      <Destination ToolID="16" Connection="Input" />
     </Connection>
     <Connection name="#1">
       <Origin ToolID="19" Connection="Join" />
@@ -611,10 +621,6 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="20" Connection="Join" />
       <Destination ToolID="17" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="21" Connection="Unique" />
-      <Destination ToolID="16" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
