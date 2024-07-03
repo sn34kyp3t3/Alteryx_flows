@@ -6,6 +6,7 @@
         <Position x="0" y="0" width="59" height="59" />
       </GuiSettings>
       <Properties>
+        <Configuration />
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />
@@ -15,7 +16,7 @@
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="472" y="247" />
+        <Position x="382" y="187" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -133,7 +134,7 @@
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="577" y="247" />
+        <Position x="487" y="187" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -205,7 +206,7 @@
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
-        <Position x="742" y="232" />
+        <Position x="652" y="172" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -250,7 +251,7 @@
     </Node>
     <Node ToolID="20">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="892" y="202" />
+        <Position x="802" y="142" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -309,7 +310,7 @@
     </Node>
     <Node ToolID="21">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="337" y="187" />
+        <Position x="247" y="127" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -373,7 +374,7 @@
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="337" y="337" />
+        <Position x="247" y="277" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -449,12 +450,12 @@
     </Node>
     <Node ToolID="23">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="997" y="187" />
+        <Position x="907" y="127" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <FormulaFields>
-            <FormulaField expression="ToNumber([Money])+toNumber([Financial_Planning])+ToNumber([Banking])+toNumber([Investments])+toNumber([Loans_And_Credit])+ToNumber([Tax_Planning])" field="Total Score" size="2" type="Int16" enabled="true" />
+            <FormulaField expression="ToNumber([Money])+toNumber([Financial_Planning])+ToNumber([Banking])+toNumber([Investments])+toNumber([Loans_And_Credit])" field="Total Score" size="2" type="Int16" enabled="true" />
           </FormulaFields>
         </Configuration>
         <Annotation DisplayMode="0">
@@ -481,7 +482,7 @@
             <Field name="Tax_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
             <Field name="Tax_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
             <Field name="IsDuplicate" size="16384" type="V_String" />
-            <Field name="Total Score" source="Formula: ToNumber([Money])+toNumber([Financial_Planning])+ToNumber([Banking])+toNumber([Investments])+toNumber([Loans_And_Credit])+ToNumber([Tax_Planning])" type="Int16" />
+            <Field name="Total Score" source="Formula: ToNumber([Money])+toNumber([Financial_Planning])+ToNumber([Banking])+toNumber([Investments])+toNumber([Loans_And_Credit])" type="Int16" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -489,7 +490,7 @@
     </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-        <Position x="1087" y="127" />
+        <Position x="997" y="67" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -551,7 +552,7 @@
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1162" y="127" />
+        <Position x="1072" y="67" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -593,7 +594,7 @@
     </Node>
     <Node ToolID="26">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-        <Position x="1087" y="292" />
+        <Position x="997" y="232" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -655,7 +656,7 @@
     </Node>
     <Node ToolID="27">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1177" y="292" />
+        <Position x="1087" y="232" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -689,7 +690,7 @@
     </Node>
     <Node ToolID="28">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="142" y="112" />
+        <Position x="52" y="52" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -713,11 +714,8 @@
           <Name />
           <DefaultAnnotationText>TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx
 Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
-          <Left value="False" />
+          <Left value="True" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Candidates" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
@@ -739,7 +737,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="29">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="142" y="412" />
+        <Position x="52" y="352" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -770,11 +768,8 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText>Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv</DefaultAnnotationText>
-          <Left value="False" />
+          <Left value="True" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Candidates" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
@@ -802,7 +797,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="30">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="1282" y="127" />
+        <Position x="1192" y="67" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -820,7 +815,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="31">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="1312" y="292" />
+        <Position x="1222" y="232" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1013,6 +1008,8 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
       <Wiz_CustomGraphic value="False" />
       <Wiz_ShowOutput value="True" />
       <Wiz_OpenOutputTools>
+        <Tool ToolId="28" Selected="True" />
+        <Tool ToolId="29" Selected="True" />
         <Tool ToolId="30" Selected="True" />
         <Tool ToolId="31" Selected="True" />
       </Wiz_OpenOutputTools>

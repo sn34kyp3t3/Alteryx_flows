@@ -15,7 +15,7 @@
           <FileInput>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of " Chinmaya Vid$`</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of " Chinmaya Vid$`</File>
               <FormatSpecificOptions>
                 <FirstRowData>False</FirstRowData>
                 <ImportLine>1</ImportLine>
@@ -25,7 +25,7 @@
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx
+          <DefaultAnnotationText>TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx
 Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
           <Left value="True" />
         </Annotation>
@@ -34,18 +34,18 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Candidates" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Roll Number" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Status" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Score" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Percentage of Grade" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Finish ratio" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Taken time" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="IP" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Time Used" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Operating System" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Candidates" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Roll Number" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Status" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Score" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Percentage of Grade" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Finish ratio" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Taken time" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="IP" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Time Used" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Operating System" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -65,7 +65,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
           <FileInput>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of " Chinmaya Vid$`</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of " Chinmaya Vid$`</File>
               <FormatSpecificOptions>
                 <FirstRowData>False</FirstRowData>
                 <ImportLine>1</ImportLine>
@@ -75,7 +75,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx
+          <DefaultAnnotationText>TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx
 Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
           <Left value="True" />
         </Annotation>
@@ -84,18 +84,18 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Candidates" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Roll Number" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Status" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Score" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Percentage of Grade" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Finish ratio" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Taken time" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="IP" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Time Used" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Operating System" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Candidates" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Roll Number" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Status" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Score" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Percentage of Grade" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Finish ratio" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Taken time" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="IP" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Time Used" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Operating System" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -103,13 +103,13 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="4">
       <GuiSettings>
-        <Position x="316" y="52" />
+        <Position x="172" y="52" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Value name="Check Box (135)">False</Value>
           <Value name="Check Box (136)">False</Value>
-          <Value name="List Box (11)">"Candidates","Registered Full Name","Registered Mob. No.","Registration Number","Status","Score","Percentage of Grade","Finish ratio","Taken time","IP","Time Used","Operating System"</Value>
+          <Value name="List Box (11)">"Candidates","Registered Full Name","Registered Mob. No.","Roll Number","Status","Score","Percentage of Grade","Finish ratio","Taken time","IP","Time Used","Operating System"</Value>
           <Value name="Check Box (84)">True</Value>
           <Value name="Check Box (117)">True</Value>
           <Value name="Check Box (15)">True</Value>
@@ -126,6 +126,9 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output26">
           <RecordInfo>
             <Field name="Candidates" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
@@ -147,13 +150,13 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="5">
       <GuiSettings>
-        <Position x="316" y="352" />
+        <Position x="187" y="352" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Value name="Check Box (135)">False</Value>
           <Value name="Check Box (136)">False</Value>
-          <Value name="List Box (11)">"Candidates","Registered Full Name","Registered Mob. No.","Registration Number","Status","Score","Percentage of Grade","Finish ratio","Taken time","IP","Time Used","Operating System"</Value>
+          <Value name="List Box (11)">"Candidates","Registered Full Name","Registered Mob. No.","Roll Number","Status","Score","Percentage of Grade","Finish ratio","Taken time","IP","Time Used","Operating System"</Value>
           <Value name="Check Box (84)">True</Value>
           <Value name="Check Box (117)">True</Value>
           <Value name="Check Box (15)">True</Value>
@@ -170,6 +173,9 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output26">
           <RecordInfo>
             <Field name="Candidates" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
@@ -856,6 +862,108 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
     </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="262" y="352" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Roll Number</Field>
+          <RegExExpression value="O" />
+          <CaseInsensitve value="False" />
+          <Method>Replace</Method>
+          <Replace expression="0">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Roll Number</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Candidates_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Roll Number" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Status" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Score" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Percentage of Grade" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Finish ratio" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Taken time" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="IP" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Time Used" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Operating System" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="262" y="52" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Roll Number</Field>
+          <RegExExpression value="O" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="0">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Roll Number</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Candidates_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Roll Number" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Status" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Score" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Percentage of Grade" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Finish ratio" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Taken time" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="IP" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Time Used" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Operating System" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
   </Nodes>
   <Connections>
     <Connection>
@@ -868,18 +976,18 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="4" Connection="Output26" />
-      <Destination ToolID="6" Connection="Left" />
+      <Destination ToolID="26" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="5" Connection="Output26" />
-      <Destination ToolID="6" Connection="Right" />
-    </Connection>
-    <Connection name="#2">
-      <Origin ToolID="5" Connection="Output26" />
-      <Destination ToolID="7" Connection="Input" />
+      <Destination ToolID="25" Connection="Input" />
     </Connection>
     <Connection name="#1">
       <Origin ToolID="6" Connection="Left" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="25" Connection="Output" />
       <Destination ToolID="7" Connection="Input" />
     </Connection>
     <Connection>
@@ -949,6 +1057,14 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="18" Connection="Output" />
       <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="6" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="6" Connection="Left" />
     </Connection>
   </Connections>
   <Properties>
