@@ -14,300 +14,6 @@
         </Annotation>
       </Properties>
     </Node>
-    <Node ToolID="17">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="382" y="187" />
-      </GuiSettings>
-      <Properties>
-        <Configuration joinByRecordPos="False">
-          <JoinInfo connection="Left">
-            <Field field="Roll Number" />
-          </JoinInfo>
-          <JoinInfo connection="Right">
-            <Field field="Roll Number" />
-          </JoinInfo>
-          <SelectConfiguration>
-            <Configuration outputConnection="Join">
-              <OrderChanged value="True" />
-              <CommaDecimal value="False" />
-              <SelectFields>
-                <SelectField field="Left_Candidates" selected="False" input="Left_" />
-                <SelectField field="Left_Registered Full Name" selected="True" input="Left_" />
-                <SelectField field="Left_Registered Mob. No." selected="True" input="Left_" />
-                <SelectField field="Left_Roll Number" selected="True" rename="StudentUsername" input="Left_" />
-                <SelectField field="Left_Status" selected="False" input="Left_" />
-                <SelectField field="Left_Score" selected="False" input="Left_" />
-                <SelectField field="Left_Percentage of Grade" selected="False" input="Left_" />
-                <SelectField field="Left_Finish ratio" selected="False" input="Left_" />
-                <SelectField field="Left_Taken time" selected="False" rename="TimeTaken" input="Left_" />
-                <SelectField field="Left_IP" selected="False" input="Left_" />
-                <SelectField field="Left_Time Used" selected="True" rename="TimeTaken" input="Left_" type="Time" size="8" />
-                <SelectField field="Left_Operating System" selected="False" input="Left_" />
-                <SelectField field="Right_Candidates" selected="False" rename="Right_Candidates" input="Right_" />
-                <SelectField field="Right_Registered Full Name" selected="False" rename="Right_Registered Full Name" input="Right_" />
-                <SelectField field="Right_Registered Mob. No." selected="False" rename="Right_Registered Mob. No." input="Right_" />
-                <SelectField field="Right_Roll Number" selected="False" rename="Right_Roll Number" input="Right_" />
-                <SelectField field="Right_Scores" selected="False" rename="Right_Scores" input="Right_" />
-                <SelectField field="Right_Percentage of Grade" selected="False" rename="Right_Percentage of Grade" input="Right_" />
-                <SelectField field="Right_MoneyScore" selected="True" rename="Money" input="Right_" />
-                <SelectField field="Right_MoneyScores" selected="True" rename="Money_FullScore" input="Right_" />
-                <SelectField field="Right_Financial PlanningScore" selected="True" rename="Financial_Planning" input="Right_" />
-                <SelectField field="Right_Financial PlanningScores" selected="True" rename="Financial_Planning_FullScore" input="Right_" />
-                <SelectField field="Right_BankingScore" selected="True" rename="Banking" input="Right_" />
-                <SelectField field="Right_BankingScores" selected="True" rename="Banking_FullScore" input="Right_" />
-                <SelectField field="Right_InvestmentsScore" selected="True" rename="Investments" input="Right_" />
-                <SelectField field="Right_InvestmentsScores" selected="True" rename="Investments_FullScore" input="Right_" />
-                <SelectField field="Right_Loans and CreditScore" selected="True" rename="Loans_And_Credit" input="Right_" />
-                <SelectField field="Right_Loans and CreditScores" selected="True" rename="Loans_And_Credit_FullScore" input="Right_" />
-                <SelectField field="Right_Tax PlanningScore" selected="True" rename="Tax_Planning" input="Right_" />
-                <SelectField field="Right_Tax PlanningScores" selected="True" rename="Tax_Planning_FullScore" input="Right_" />
-                <SelectField field="*Unknown" selected="False" />
-              </SelectFields>
-            </Configuration>
-          </SelectConfiguration>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Left">
-          <RecordInfo>
-            <Field name="Candidates" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Roll Number" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Status" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Score" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Percentage of Grade" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Finish ratio" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Taken time" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="IP" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Time Used" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Operating System" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-          </RecordInfo>
-        </MetaInfo>
-        <MetaInfo connection="Join">
-          <RecordInfo>
-            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="TimeTaken" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
-            <Field name="Money" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-          </RecordInfo>
-        </MetaInfo>
-        <MetaInfo connection="Right">
-          <RecordInfo>
-            <Field name="Candidates" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Scores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
-    </Node>
-    <Node ToolID="18">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="487" y="187" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Mode>Simple</Mode>
-          <Simple>
-            <Operator>IsNotEmpty</Operator>
-            <Field>StudentUsername</Field>
-            <Operands>
-              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
-              <DateType>fixed</DateType>
-              <PeriodDate>2024-07-02 12:08:25</PeriodDate>
-              <PeriodType>
-              </PeriodType>
-              <PeriodCount>0</PeriodCount>
-              <Operand>
-              </Operand>
-              <StartDate>2024-07-02 12:08:25</StartDate>
-              <EndDate>2024-07-02 12:08:25</EndDate>
-            </Operands>
-          </Simple>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>!IsEmpty([StudentUsername])</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="True">
-          <RecordInfo>
-            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="TimeTaken" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
-            <Field name="Money" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-          </RecordInfo>
-        </MetaInfo>
-        <MetaInfo connection="False">
-          <RecordInfo>
-            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="TimeTaken" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
-            <Field name="Money" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
-    </Node>
-    <Node ToolID="19">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
-        <Position x="652" y="172" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <UpdateField value="False" />
-          <UpdateField_Name>StudentUsername</UpdateField_Name>
-          <CreateField_Name>IsDuplicate</CreateField_Name>
-          <CreateField_Type>V_String</CreateField_Type>
-          <CreateField_Size>16384</CreateField_Size>
-          <OtherRows>Empty</OtherRows>
-          <NumRows value="1" />
-          <Expression>IF [StudentUsername] = [Row-1:StudentUsername] OR [StudentUsername] = [Row+1:StudentUsername] THEN "Duplicate" ELSE "Not Duplicate" ENDIF</Expression>
-          <GroupByFields />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>IF [StudentUsername] = [Row-1:StudentUsername] OR [StudentUse...</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="TimeTaken" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
-            <Field name="Money" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="IsDuplicate" size="16384" type="V_String" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
-    </Node>
-    <Node ToolID="20">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="802" y="142" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Expression>EqualStrings([IsDuplicate], "Duplicate")</Expression>
-          <Mode>Custom</Mode>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>EqualStrings([IsDuplicate], "Duplicate")</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="True">
-          <RecordInfo>
-            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="TimeTaken" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
-            <Field name="Money" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="IsDuplicate" size="16384" type="V_String" />
-          </RecordInfo>
-        </MetaInfo>
-        <MetaInfo connection="False">
-          <RecordInfo>
-            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="TimeTaken" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
-            <Field name="Money" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="IsDuplicate" size="16384" type="V_String" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
-    </Node>
     <Node ToolID="21">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
         <Position x="247" y="127" />
@@ -374,7 +80,7 @@
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="247" y="277" />
+        <Position x="247" y="247" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -403,290 +109,46 @@
         </Annotation>
         <MetaInfo connection="True">
           <RecordInfo>
-            <Field name="Candidates" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Scores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="False">
           <RecordInfo>
-            <Field name="Candidates" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Scores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
-    </Node>
-    <Node ToolID="23">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="907" y="127" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <FormulaFields>
-            <FormulaField expression="ToNumber([Money])+toNumber([Financial_Planning])+ToNumber([Banking])+toNumber([Investments])+toNumber([Loans_And_Credit])" field="Total Score" size="2" type="Int16" enabled="true" />
-          </FormulaFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>Total Score = ToNumber([Money])+toNumber([Financial_Planning])+ToNumber([Banking...</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="TimeTaken" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
-            <Field name="Money" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="IsDuplicate" size="16384" type="V_String" />
-            <Field name="Total Score" source="Formula: ToNumber([Money])+toNumber([Financial_Planning])+ToNumber([Banking])+toNumber([Investments])+toNumber([Loans_And_Credit])" type="Int16" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
-    </Node>
-    <Node ToolID="24">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-        <Position x="997" y="67" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <UniqueFields>
-            <Field field="Total Score" />
-          </UniqueFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Unique">
-          <RecordInfo>
-            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="TimeTaken" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
-            <Field name="Money" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="IsDuplicate" size="16384" type="V_String" />
-            <Field name="Total Score" source="Formula: ToNumber([Money])+toNumber([Financial_Planning])+ToNumber([Banking])+toNumber([Investments])+toNumber([Loans_And_Credit])+ToNumber([Tax_Planning])" type="Int16" />
-          </RecordInfo>
-        </MetaInfo>
-        <MetaInfo connection="Duplicates">
-          <RecordInfo>
-            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="TimeTaken" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
-            <Field name="Money" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="IsDuplicate" size="16384" type="V_String" />
-            <Field name="Total Score" source="Formula: ToNumber([Money])+toNumber([Financial_Planning])+ToNumber([Banking])+toNumber([Investments])+toNumber([Loans_And_Credit])+ToNumber([Tax_Planning])" type="Int16" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
-    </Node>
-    <Node ToolID="25">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1072" y="67" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="False" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="TimeTaken" selected="False" />
-            <SelectField field="*Unknown" selected="True" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Money" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="IsDuplicate" size="16384" type="V_String" />
-            <Field name="Total Score" source="Formula: ToNumber([Money])+toNumber([Financial_Planning])+ToNumber([Banking])+toNumber([Investments])+toNumber([Loans_And_Credit])+ToNumber([Tax_Planning])" type="Int16" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
-    </Node>
-    <Node ToolID="26">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-        <Position x="997" y="232" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <UniqueFields>
-            <Field field="TimeTaken" />
-          </UniqueFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Unique">
-          <RecordInfo>
-            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="TimeTaken" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
-            <Field name="Money" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="IsDuplicate" size="16384" type="V_String" />
-            <Field name="Total Score" source="Formula: ToNumber([Money])+toNumber([Financial_Planning])+ToNumber([Banking])+toNumber([Investments])+toNumber([Loans_And_Credit])+ToNumber([Tax_Planning])" type="Int16" />
-          </RecordInfo>
-        </MetaInfo>
-        <MetaInfo connection="Duplicates">
-          <RecordInfo>
-            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="TimeTaken" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
-            <Field name="Money" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax_Planning_FullScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="IsDuplicate" size="16384" type="V_String" />
-            <Field name="Total Score" source="Formula: ToNumber([Money])+toNumber([Financial_Planning])+ToNumber([Banking])+toNumber([Investments])+toNumber([Loans_And_Credit])+ToNumber([Tax_Planning])" type="Int16" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
-    </Node>
-    <Node ToolID="27">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1087" y="232" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <OrderChanged value="False" />
-          <CommaDecimal value="False" />
-          <SelectFields>
-            <SelectField field="Registered Full Name" selected="True" />
-            <SelectField field="Registered Mob. No." selected="True" />
-            <SelectField field="StudentUsername" selected="True" />
-            <SelectField field="TimeTaken" selected="True" />
-            <SelectField field="IsDuplicate" selected="True" />
-            <SelectField field="*Unknown" selected="False" />
-          </SelectFields>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="TimeTaken" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
-            <Field name="IsDuplicate" size="16384" type="V_String" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
     </Node>
     <Node ToolID="28">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
@@ -702,7 +164,7 @@
           <FileInput>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of " Chinmaya Vid$`</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of " Chinmaya Vid$`</File>
               <FormatSpecificOptions>
                 <FirstRowData>False</FirstRowData>
                 <ImportLine>1</ImportLine>
@@ -712,24 +174,27 @@
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx
+          <DefaultAnnotationText>TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx
 Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
           <Left value="True" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Candidates" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Roll Number" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Status" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Score" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Percentage of Grade" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Finish ratio" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Taken time" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="IP" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Time Used" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Operating System" size="255" source="File: C:\Users\malho\Downloads\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-02.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Candidates" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Roll Number" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Status" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Score" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Percentage of Grade" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Finish ratio" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Taken time" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="IP" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Time Used" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Operating System" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -749,7 +214,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
           <FileInput>
             <Configuration>
               <Passwords />
-              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv</File>
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv</File>
               <FormatSpecificOptions>
                 <HeaderRow>True</HeaderRow>
                 <IgnoreErrors>False</IgnoreErrors>
@@ -767,37 +232,615 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv</DefaultAnnotationText>
+          <DefaultAnnotationText>Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv</DefaultAnnotationText>
           <Left value="True" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Candidates" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Scores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
-            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Downloads\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School, Virugambakkam_ 11-12 29th June 2024.csv" type="V_WString" />
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
     </Node>
-    <Node ToolID="30">
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1027" y="187" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Registered Full Name" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Registered Full Name" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Left_Candidates" selected="True" input="Left_" />
+                <SelectField field="Left_Registered Full Name" selected="True" input="Left_" />
+                <SelectField field="Left_Registered Mob. No." selected="True" input="Left_" />
+                <SelectField field="Left_StudentUsername" selected="True" input="Left_" />
+                <SelectField field="Left_Status" selected="True" input="Left_" />
+                <SelectField field="Left_Score" selected="True" input="Left_" />
+                <SelectField field="Left_Percentage of Grade" selected="True" input="Left_" />
+                <SelectField field="Left_Finish ratio" selected="True" input="Left_" />
+                <SelectField field="Left_Taken time" selected="True" input="Left_" />
+                <SelectField field="Left_IP" selected="True" input="Left_" />
+                <SelectField field="Left_Time Used" selected="True" input="Left_" />
+                <SelectField field="Left_Operating System" selected="True" input="Left_" />
+                <SelectField field="Right_Candidates" selected="False" rename="Right_Candidates" input="Right_" />
+                <SelectField field="Right_Registered Full Name" selected="False" rename="Right_Registered Full Name" input="Right_" />
+                <SelectField field="Right_Registered Mob. No." selected="False" rename="Right_Registered Mob. No." input="Right_" />
+                <SelectField field="Right_StudentUsername" selected="False" rename="Right_StudentUsername" input="Right_" />
+                <SelectField field="Right_Scores" selected="False" input="Right_" />
+                <SelectField field="Right_Percentage of Grade" selected="False" rename="Right_Percentage of Grade" input="Right_" />
+                <SelectField field="Right_BankingScore" selected="True" input="Right_" />
+                <SelectField field="Right_BankingScores" selected="True" input="Right_" />
+                <SelectField field="Right_Financial PlanningScore" selected="True" input="Right_" />
+                <SelectField field="Right_Financial PlanningScores" selected="True" input="Right_" />
+                <SelectField field="Right_MoneyScore" selected="True" input="Right_" />
+                <SelectField field="Right_MoneyScores" selected="True" input="Right_" />
+                <SelectField field="Right_InvestmentsScore" selected="True" input="Right_" />
+                <SelectField field="Right_InvestmentsScores" selected="True" input="Right_" />
+                <SelectField field="Right_Loans and CreditScore" selected="True" input="Right_" />
+                <SelectField field="Right_Loans and CreditScores" selected="True" input="Right_" />
+                <SelectField field="Right_IsDuplicate" selected="False" rename="Right_IsDuplicate" input="Right_" />
+                <SelectField field="Right_Total Score" selected="False" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+                <SelectField field="Left_IsDuplicate" selected="True" rename="Error" input="Left_" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="Candidates" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Status" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Score" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Percentage of Grade" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Finish ratio" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Taken time" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="IP" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Time Used" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Operating System" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="IsDuplicate" size="16384" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="Candidates" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Status" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Score" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Percentage of Grade" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Finish ratio" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Taken time" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="IP" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Time Used" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Operating System" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Error" size="16384" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="StudentUsername" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="IsDuplicate" size="16384" type="V_String" />
+            <Field name="Total Score" source="Formula: ToNumber([MoneyScore])+toNumber([Financial PlanningScore])+ToNumber([BankingScore])+toNumber([InvestmentsScore])+toNumber([Loans and CreditScore])" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="397" y="247" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotEmpty</Operator>
+            <Field>Roll Number</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-07-04 15:38:49</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2024-07-04 15:38:49</StartDate>
+              <EndDate>2024-07-04 15:38:49</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsEmpty([Roll Number])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="652" y="247" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>StudentUsername</UpdateField_Name>
+          <CreateField_Name>IsDuplicate</CreateField_Name>
+          <CreateField_Type>V_String</CreateField_Type>
+          <CreateField_Size>16384</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IF [StudentUsername] = [Row-1:StudentUsername] OR [StudentUsername] = [Row+1:StudentUsername] THEN "Duplicate" ELSE "Not Duplicate" ENDIF</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IF [StudentUsername] = [Row-1:StudentUsername] OR [StudentUse...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="StudentUsername" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="IsDuplicate" size="16384" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="757" y="247" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>EqualStrings([IsDuplicate], "Duplicate")</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>EqualStrings([IsDuplicate], "Duplicate")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="StudentUsername" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="IsDuplicate" size="16384" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="StudentUsername" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="IsDuplicate" size="16384" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="862" y="247" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToNumber([MoneyScore])+toNumber([Financial PlanningScore])+ToNumber([BankingScore])+toNumber([InvestmentsScore])+toNumber([Loans and CreditScore])" field="Total Score" size="2" type="Int16" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Total Score = ToNumber([MoneyScore])+toNumber([Financial PlanningScore])+ToNumbe...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="StudentUsername" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="IsDuplicate" size="16384" type="V_String" />
+            <Field name="Total Score" source="Formula: ToNumber([MoneyScore])+toNumber([Financial PlanningScore])+ToNumber([BankingScore])+toNumber([InvestmentsScore])+toNumber([Loans and CreditScore])" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="517" y="247" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Roll Number" selected="True" rename="StudentUsername" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="StudentUsername" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="412" y="127" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotEmpty</Operator>
+            <Field>Roll Number</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-07-04 15:38:49</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2024-07-04 15:38:49</StartDate>
+              <EndDate>2024-07-04 15:38:49</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsEmpty([Roll Number])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="Candidates" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Roll Number" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Status" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Score" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Percentage of Grade" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Finish ratio" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Taken time" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="IP" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Time Used" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Operating System" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="Candidates" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Roll Number" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Status" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Score" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Percentage of Grade" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Finish ratio" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Taken time" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="IP" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Time Used" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Operating System" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="637" y="127" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>StudentUsername</UpdateField_Name>
+          <CreateField_Name>IsDuplicate</CreateField_Name>
+          <CreateField_Type>V_String</CreateField_Type>
+          <CreateField_Size>16384</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>IF [StudentUsername] = [Row-1:StudentUsername] OR [StudentUsername] = [Row+1:StudentUsername] THEN "Duplicate" ELSE "Not Duplicate" ENDIF</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IF [StudentUsername] = [Row-1:StudentUsername] OR [StudentUse...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Status" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Score" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Percentage of Grade" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Finish ratio" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Taken time" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="IP" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Time Used" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Operating System" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="IsDuplicate" size="16384" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="787" y="127" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>EqualStrings([IsDuplicate], "Duplicate")</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>EqualStrings([IsDuplicate], "Duplicate")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="Candidates" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Status" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Score" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Percentage of Grade" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Finish ratio" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Taken time" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="IP" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Time Used" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Operating System" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="IsDuplicate" size="16384" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="Candidates" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Status" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Score" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Percentage of Grade" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Finish ratio" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Taken time" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="IP" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Time Used" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Operating System" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="IsDuplicate" size="16384" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="517" y="127" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Roll Number" selected="True" rename="StudentUsername" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Full Name" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Status" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Score" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Percentage of Grade" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Finish ratio" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Taken time" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="IP" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Time Used" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+            <Field name="Operating System" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="43">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="1192" y="67" />
+        <Position x="1207" y="172" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -813,73 +856,15 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
     </Node>
-    <Node ToolID="31">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="1222" y="232" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Name>Output31</Name>
-          <Abbrev />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <AnnotationText>Output</AnnotationText>
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
-    </Node>
   </Nodes>
   <Connections>
     <Connection>
-      <Origin ToolID="17" Connection="Join" />
-      <Destination ToolID="18" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="18" Connection="True" />
-      <Destination ToolID="19" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="19" Connection="Output" />
-      <Destination ToolID="20" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="20" Connection="True" />
-      <Destination ToolID="23" Connection="Input" />
-    </Connection>
-    <Connection>
       <Origin ToolID="21" Connection="True" />
-      <Destination ToolID="17" Connection="Left" />
+      <Destination ToolID="38" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="22" Connection="True" />
-      <Destination ToolID="17" Connection="Right" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="23" Connection="Output" />
-      <Destination ToolID="24" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="23" Connection="Output" />
-      <Destination ToolID="26" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="24" Connection="Unique" />
-      <Destination ToolID="25" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="25" Connection="Output" />
-      <Destination ToolID="30" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="26" Connection="Unique" />
-      <Destination ToolID="27" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="27" Connection="Output" />
-      <Destination ToolID="31" Connection="Input" />
+      <Destination ToolID="33" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="28" Connection="Output" />
@@ -888,6 +873,46 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="29" Connection="Output" />
       <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Join" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="True" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="True" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="32" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="True" />
+      <Destination ToolID="32" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="True" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
@@ -924,13 +949,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
       </Constant>
       <Constant>
         <Namespace>Question</Namespace>
-        <Name>Macro Output (30)</Name>
-        <Value />
-        <IsNumeric value="False" />
-      </Constant>
-      <Constant>
-        <Namespace>Question</Namespace>
-        <Name>Macro Output (31)</Name>
+        <Name>Macro Output (43)</Name>
         <Value />
         <IsNumeric value="False" />
       </Constant>
@@ -986,14 +1005,8 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
             <Question>
               <Type>MacroOutput</Type>
               <Description>Macro Output (30)</Description>
-              <Name>Macro Output (30)</Name>
-              <ToolId value="30" />
-            </Question>
-            <Question>
-              <Type>MacroOutput</Type>
-              <Description>Macro Output (31)</Description>
-              <Name>Macro Output (31)</Name>
-              <ToolId value="31" />
+              <Name>Macro Output (43)</Name>
+              <ToolId value="43" />
             </Question>
           </Questions>
         </Question>
@@ -1010,8 +1023,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
       <Wiz_OpenOutputTools>
         <Tool ToolId="28" Selected="True" />
         <Tool ToolId="29" Selected="True" />
-        <Tool ToolId="30" Selected="True" />
-        <Tool ToolId="31" Selected="True" />
+        <Tool ToolId="43" Selected="True" />
       </Wiz_OpenOutputTools>
       <Wiz_OutputMessage />
       <Wiz_NoOutputFilesMessage />
