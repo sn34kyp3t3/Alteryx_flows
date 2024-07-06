@@ -7,6 +7,8 @@
 If extra columns for loans and credits exist, like in the [example document](https://drive.google.com/file/d/18pGqtUVAvAjJxB0nG3DgJDxezEkmgQuV/view?usp=sharing),
 then use the output gotten from this as input for the main workflow.
 
+***
+
 <h1 align="center">Alteryx Open Source</h1>
 
 <p align="center"> 
