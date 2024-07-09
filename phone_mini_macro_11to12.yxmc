@@ -1,0 +1,1223 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="292" y="217" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Registered Mob. No." />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="phone" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Score" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Finish ratio" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Taken time" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="IP" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Time Used" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Operating System" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Score" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Finish ratio" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Taken time" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="IP" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Time Used" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Operating System" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="student_username" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="phone" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="email" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="student_username" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="phone" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="email" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="727" y="382" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="student_username" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="phone" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="email" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="817" y="382" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotEmpty</Operator>
+            <Field>student_username</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-07-02 15:45:33</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2024-07-02 15:45:33</StartDate>
+              <EndDate>2024-07-02 15:45:33</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsEmpty([student_username])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="student_username" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="phone" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="email" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="student_username" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="phone" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="email" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="52" y="112" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="True" />
+          <Name>Input9</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <Optional value="False" />
+          <FileInput>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+          </FileInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>data_sample_for_mini_macro.csv</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Score" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Finish ratio" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Taken time" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="IP" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Time Used" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Operating System" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="67" y="352" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="True" />
+          <Name>Input10</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <Optional value="False" />
+          <FileInput>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+          </FileInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>admin_sample_for_mini_macro.csv</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="student_username" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="phone" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="email" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="907" y="367" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="student_username" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Unique">
+          <RecordInfo>
+            <Field name="student_username" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="phone" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="email" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Duplicates">
+          <RecordInfo>
+            <Field name="student_username" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="phone" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="email" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="502" y="412" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>student_username</Field>
+          <RegExExpression value="...12..." />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="$&amp;">
+            <CopyUnmatched value="False" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>student_username</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="student_username" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="phone" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="email" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="502" y="352" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>student_username</Field>
+          <RegExExpression value="...11..." />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="$&amp;">
+            <CopyUnmatched value="False" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>student_username</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="student_username" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="phone" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="email" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="727" y="202" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Score" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Finish ratio" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Taken time" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="IP" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Time Used" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Operating System" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="student_username" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="phone" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="email" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="817" y="202" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotEmpty</Operator>
+            <Field>student_username</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-07-02 15:45:33</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2024-07-02 15:45:33</StartDate>
+              <EndDate>2024-07-02 15:45:33</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsEmpty([student_username])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Score" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Finish ratio" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Taken time" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="IP" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Time Used" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Operating System" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="student_username" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="phone" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="email" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Score" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Finish ratio" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Taken time" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="IP" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Time Used" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Operating System" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="student_username" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="phone" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="email" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="907" y="202" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Roll Number" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Unique">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Score" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Finish ratio" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Taken time" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="IP" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Time Used" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Operating System" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="student_username" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="phone" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="email" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Duplicates">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Score" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Finish ratio" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Taken time" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="IP" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Time Used" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Operating System" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="student_username" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="phone" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="email" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="502" y="247" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>student_username</Field>
+          <RegExExpression value="...12..." />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="$&amp;">
+            <CopyUnmatched value="False" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>student_username</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Score" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Finish ratio" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Taken time" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="IP" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Time Used" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Operating System" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="student_username" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="phone" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="email" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="502" y="172" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>student_username</Field>
+          <RegExExpression value="...11..." />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="$&amp;">
+            <CopyUnmatched value="False" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>student_username</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Score" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Finish ratio" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Taken time" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="IP" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Time Used" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Operating System" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="student_username" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="phone" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="email" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\admin_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="727" y="52" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Score" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Finish ratio" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Taken time" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="IP" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Time Used" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Operating System" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="817" y="52" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotEmpty</Operator>
+            <Field>Roll Number</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-07-03 06:27:26</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2024-07-03 06:27:26</StartDate>
+              <EndDate>2024-07-03 06:27:26</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsEmpty([Roll Number])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Score" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Finish ratio" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Taken time" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="IP" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Time Used" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Operating System" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Score" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Finish ratio" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Taken time" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="IP" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Time Used" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Operating System" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1012" y="37" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output13</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Output</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="907" y="37" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="Roll Number" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Unique">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Score" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Finish ratio" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Taken time" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="IP" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Time Used" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Operating System" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Duplicates">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Score" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Finish ratio" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Taken time" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="IP" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Time Used" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Operating System" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="502" y="82" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Roll Number</Field>
+          <RegExExpression value="...12..." />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="$&amp;">
+            <CopyUnmatched value="False" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Roll Number</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Score" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Finish ratio" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Taken time" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="IP" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Time Used" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Operating System" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="502" y="22" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Roll Number</Field>
+          <RegExExpression value="...11..." />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="$&amp;">
+            <CopyUnmatched value="False" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Roll Number</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>name_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Status" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Score" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Finish ratio" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Taken time" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="IP" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Time Used" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+            <Field name="Operating System" size="254" source="File: C:\Users\malho\Documents\Admin_sheets\data_sample_for_mini_macro.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1027" y="187" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output31</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Output</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1042" y="352" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output32</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Output</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="3" Connection="Right" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Right" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Left" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Left" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="True" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Unique" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="True" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Unique" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="True" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Unique" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (9)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (10)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (27)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (31)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (32)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>phone_mini_macro_11to12</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="fdae42c5-fd93-4db6-85f3-d91999a645b8" />
+      <Telemetry>
+        <PreviousWorkflowId value="dbc80781-3476-497d-86a6-e85e4943239a" />
+        <OriginWorkflowId value="a03bb52f-7acd-467e-934b-64fe9d9cbb76" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (11)</Name>
+          <ToolId value="11" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description />
+              <Name>Macro Input (9)</Name>
+              <ToolId value="9" />
+            </Question>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description />
+              <Name>Macro Input (10)</Name>
+              <ToolId value="10" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (13)</Description>
+              <Name>Macro Output (27)</Name>
+              <ToolId value="27" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (31)</Description>
+              <Name>Macro Output (31)</Name>
+              <ToolId value="31" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (32)</Description>
+              <Name>Macro Output (32)</Name>
+              <ToolId value="32" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="20" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="9" Selected="True" />
+        <Tool ToolId="10" Selected="True" />
+        <Tool ToolId="32" Selected="True" />
+        <Tool ToolId="31" Selected="True" />
+        <Tool ToolId="27" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
