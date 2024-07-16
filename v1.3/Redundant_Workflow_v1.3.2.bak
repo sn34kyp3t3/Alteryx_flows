@@ -2904,7 +2904,7 @@ Query=empty</DefaultAnnotationText>
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="C:\Users\malho\Documents\Alteryx\v1.3\filter_1.yxmc" />
+      <EngineSettings Macro=".\filter_1.yxmc" />
     </Node>
     <Node ToolID="290">
       <GuiSettings>
@@ -2984,7 +2984,7 @@ Query=empty</DefaultAnnotationText>
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="C:\Users\malho\Documents\Alteryx\v1.3\filter_1.yxmc" />
+      <EngineSettings Macro=".\filter_1.yxmc" />
     </Node>
     <Node ToolID="265">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
@@ -3184,7 +3184,7 @@ Query=empty</DefaultAnnotationText>
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="C:\Users\malho\Documents\Alteryx\v1.3\filter_1.yxmc" />
+      <EngineSettings Macro=".\filter_1.yxmc" />
     </Node>
     <Node ToolID="292">
       <GuiSettings>
@@ -3264,7 +3264,7 @@ Query=empty</DefaultAnnotationText>
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="C:\Users\malho\Documents\Alteryx\v1.3\filter_1.yxmc" />
+      <EngineSettings Macro=".\filter_1.yxmc" />
     </Node>
     <Node ToolID="293">
       <GuiSettings>
@@ -3326,7 +3326,7 @@ Query=empty</DefaultAnnotationText>
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="C:\Users\malho\Documents\Alteryx\v1.3\filter_1.yxmc" />
+      <EngineSettings Macro=".\filter_1.yxmc" />
     </Node>
     <Node ToolID="294">
       <GuiSettings>
@@ -3406,7 +3406,7 @@ Query=empty</DefaultAnnotationText>
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="C:\Users\malho\Documents\Alteryx\v1.3\filter_1.yxmc" />
+      <EngineSettings Macro=".\filter_1.yxmc" />
     </Node>
     <Node ToolID="273">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
@@ -3553,7 +3553,7 @@ Query=empty</DefaultAnnotationText>
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="C:\Users\malho\Documents\Alteryx\v1.3\filter_2.yxmc" />
+      <EngineSettings Macro=".\filter_2.yxmc" />
     </Node>
     <Node ToolID="341">
       <GuiSettings>
@@ -3603,7 +3603,7 @@ Query=empty</DefaultAnnotationText>
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="C:\Users\malho\Documents\Alteryx\v1.3\filter_2.yxmc" />
+      <EngineSettings Macro=".\filter_2.yxmc" />
     </Node>
     <Node ToolID="342">
       <GuiSettings>
@@ -3653,7 +3653,7 @@ Query=empty</DefaultAnnotationText>
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="C:\Users\malho\Documents\Alteryx\v1.3\filter_2.yxmc" />
+      <EngineSettings Macro=".\filter_2.yxmc" />
     </Node>
     <Node ToolID="279">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
@@ -4939,7 +4939,7 @@ Query=empty</DefaultAnnotationText>
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="v1.3\filter_3.yxmc" />
+      <EngineSettings Macro=".\filter_3.yxmc" />
     </Node>
     <Node ToolID="357">
       <GuiSettings>
@@ -4986,7 +4986,7 @@ Query=empty</DefaultAnnotationText>
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="v1.3\filter_3.yxmc" />
+      <EngineSettings Macro=".\filter_3.yxmc" />
     </Node>
     <Node ToolID="358">
       <GuiSettings>
@@ -5033,7 +5033,7 @@ Query=empty</DefaultAnnotationText>
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="v1.3\filter_3.yxmc" />
+      <EngineSettings Macro=".\filter_3.yxmc" />
     </Node>
     <Node ToolID="359">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
@@ -5703,7 +5703,7 @@ Query=empty</DefaultAnnotationText>
     <IsTemplate value="False" />
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>Redundant_Workflow_v1.3.1</Name>
+      <Name>Redundant_Workflow_v1.3.2</Name>
       <Description />
       <RootToolName />
       <ToolVersion />
@@ -5718,9 +5718,9 @@ Query=empty</DefaultAnnotationText>
         <Description />
         <File />
       </Example>
-      <WorkflowId value="607c3cd7-0766-471e-af83-eae66b29ed6c" />
+      <WorkflowId value="1ecff857-09a7-49e0-8ea3-3b19309db8a5" />
       <Telemetry>
-        <PreviousWorkflowId value="e4cfc7f4-8f4b-469e-838a-184a2adcca08" />
+        <PreviousWorkflowId value="607c3cd7-0766-471e-af83-eae66b29ed6c" />
         <OriginWorkflowId value="18a6de6a-e2a7-4761-a05b-be7b37da1319" />
       </Telemetry>
       <PlatformWorkflowId value="" />

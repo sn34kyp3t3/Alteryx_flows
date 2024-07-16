@@ -1,13 +1,13 @@
 # Alteryx_flows
 
-## The Latest version right now is v1.3.2
+## The Latest version right now is v1.3.3
 
 **When to Use Column_correction.yxmd:**
 
 If extra columns for loans and credits exist, like in the [example document](https://drive.google.com/file/d/18pGqtUVAvAjJxB0nG3DgJDxezEkmgQuV/view?usp=sharing),
 then use the output gotten from this as input for the main workflow.
 
-***
+---
 
 <h1 align="center">Alteryx Open Source</h1>
 
@@ -21,7 +21,7 @@ We create next generation technologies, tools, and products to unleash the full 
 
 ### Libraries
 
-We currently have four Python libraries available for machine learning aficionados to use. 
+We currently have four Python libraries available for machine learning aficionados to use.
 
 - [Featuretools](https://github.com/alteryx/featuretools) automates the feature engineering process
 - [EvalML](https://github.com/alteryx/evalml) automates model building, includes data checks, and even offers tools for model understanding
@@ -30,7 +30,8 @@ We currently have four Python libraries available for machine learning aficionad
 
 ### Blog Posts
 
-The Alteryx Open Source team also shares strategies for making the most of these libraries and insights they’ve learned along the way on the [Innovation Labs blog](https://innovation.alteryx.com/). Some recent posts include: 
+The Alteryx Open Source team also shares strategies for making the most of these libraries and insights they’ve learned along the way on the [Innovation Labs blog](https://innovation.alteryx.com/). Some recent posts include:
+
 - [Type Inference for Natural Language](https://innovation.alteryx.com/type-inference-for-natural-language/)
 - [Introducing Woodwork - An Open Source Python Library for Rich Semantic Data Typing](https://innovation.alteryx.com/introducing-woodwork-an-open-source-python-library-for-rich-semantic-data-typing/)
 - [Detecting and Correcting Irregularly Spaced Time Series Data With EvalML](https://innovation.alteryx.com/detecting-and-correcting-irregularly-spaced-time-series-data-with-evalml/)

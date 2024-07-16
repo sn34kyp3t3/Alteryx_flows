@@ -15,7 +15,7 @@
           <FileInput>
             <Configuration>
               <Passwords />
-              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv</File>
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv</File>
               <FormatSpecificOptions>
                 <HeaderRow>True</HeaderRow>
                 <IgnoreErrors>False</IgnoreErrors>
@@ -33,7 +33,7 @@
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>sample_for_admin_details.csv</DefaultAnnotationText>
+          <DefaultAnnotationText>sample_for_big_macro.csv</DefaultAnnotationText>
           <Left value="True" />
         </Annotation>
         <Dependencies>
@@ -41,22 +41,19 @@
         </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="TimeTaken" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -148,27 +145,21 @@ Query=`CVSSS (340201)$`</DefaultAnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output26">
           <RecordInfo>
-            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="TimeTaken" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -266,22 +257,19 @@ Query=`CVSSS (340201)$`</DefaultAnnotationText>
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Candidates" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Registered Full Name" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Registered Mob. No." size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Roll Number" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Percentage of Grade" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="TimeTaken" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -405,31 +393,25 @@ Query=`CVSSS (340201)$`</DefaultAnnotationText>
         </Annotation>
         <MetaInfo connection="Left">
           <RecordInfo>
-            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="TimeTaken" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Join">
           <RecordInfo>
-            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
             <Field name="Right_student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$`" type="V_String" />
             <Field name="Right_name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$`" type="V_String" />
             <Field name="Right_grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$`" type="V_String" />
@@ -489,22 +471,19 @@ Query=`CVSSS (340201)$`</DefaultAnnotationText>
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="TimeTaken" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -1128,42 +1107,36 @@ Query=`CVSSS (340201)$`</DefaultAnnotationText>
         </Annotation>
         <MetaInfo connection="True">
           <RecordInfo>
-            <Field name="Candidates" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Registered Full Name" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Registered Mob. No." size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Roll Number" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Percentage of Grade" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="TimeTaken" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="False">
           <RecordInfo>
-            <Field name="Candidates" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Registered Full Name" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Registered Mob. No." size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Roll Number" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Percentage of Grade" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="TimeTaken" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -1315,21 +1288,19 @@ Query=`CVSSS (340201)$`</DefaultAnnotationText>
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Registered Full Name" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Registered Mob. No." size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Roll Number" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Percentage of Grade" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="TimeTaken" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -1355,21 +1326,19 @@ Error = "Invalid Phone Number but Valid Roll Number"
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Registered Full Name" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Registered Mob. No." size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Roll Number" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Percentage of Grade" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="TimeTaken" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
             <Field name="Exam_written_for" size="1073741823" source="Formula: &quot;6-8&quot;" type="V_WString" />
             <Field name="Error" size="1073741823" source="Formula: &quot;Invalid Phone Number but Valid Roll Number&quot;" type="V_WString" />
           </RecordInfo>
@@ -1397,22 +1366,19 @@ Exam_written_for = "6-8"
         </Annotation>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Candidates" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Registered Full Name" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Registered Mob. No." size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Roll Number" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Percentage of Grade" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="TimeTaken" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
             <Field name="Error" size="1073741823" source="Formula: &quot;Invalid roll number entered&quot;" type="V_WString" />
             <Field name="Exam_written_for" size="1073741823" source="Formula: &quot;6-8&quot;" type="V_WString" />
           </RecordInfo>
@@ -1475,42 +1441,36 @@ Exam_written_for = "6-8"
         </Annotation>
         <MetaInfo connection="Left">
           <RecordInfo>
-            <Field name="Candidates" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Registered Full Name" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Registered Mob. No." size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Roll Number" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Percentage of Grade" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="TimeTaken" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Join">
           <RecordInfo>
-            <Field name="Candidates" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Registered Full Name" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Registered Mob. No." size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Roll Number" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Percentage of Grade" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
-            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
-            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\sample_for_admin_details.csv" type="V_String" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="TimeTaken" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
+            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\OneDrive\Desktop\sample_for_big_macro.csv" type="V_String" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Right">
