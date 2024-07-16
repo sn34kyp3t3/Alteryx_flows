@@ -1,0 +1,666 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="337" y="142" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Serial No." selected="False" />
+            <SelectField field="Name" selected="False" />
+            <SelectField field="MobileNo" selected="False" />
+            <SelectField field="EmailID" selected="False" />
+            <SelectField field="BatchName" selected="False" />
+            <SelectField field="RollNo" selected="True" rename="StudentUsername" />
+            <SelectField field="FinishExamTime" selected="True" />
+            <SelectField field="Paper ID" selected="False" />
+            <SelectField field="Money" selected="True" />
+            <SelectField field="Money_FullScore" selected="True" />
+            <SelectField field="Financial Planning" selected="True" rename="Financial_Planning" />
+            <SelectField field="Financial_Planning_FullScore" selected="True" />
+            <SelectField field="Banking" selected="True" />
+            <SelectField field="Banking_FullScore" selected="True" />
+            <SelectField field="Investing" selected="True" rename="Investments" />
+            <SelectField field="Investments_FullScore" selected="True" />
+            <SelectField field="Loans &amp; Credits" selected="True" rename="Loans_And_Credit" />
+            <SelectField field="Loans_And_Credit_FullScore" selected="True" />
+            <SelectField field="Tax_Planning_FullScore" selected="True" />
+            <SelectField field="Tax_Planning" selected="True" />
+            <SelectField field="TotalScore" selected="False" />
+            <SelectField field="Total Correct Answer" selected="False" />
+            <SelectField field="Total Incorrect Answer" selected="False" />
+            <SelectField field="Attempted Questions" selected="False" />
+            <SelectField field="Total UnAttempted Questions" selected="False" />
+            <SelectField field="RankNo" selected="False" />
+            <SelectField field="No. of Window Switch by Candidate" selected="False" />
+            <SelectField field="Total Window Switching Alerts" selected="False" />
+            <SelectField field="FraudSuspected" selected="False" />
+            <SelectField field="ScheduleDateTime" selected="False" />
+            <SelectField field="IsPass" selected="False" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="FinishExamTime" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Money" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Money_FullScore" size="1073741823" source="Formula: 7" type="V_WString" />
+            <Field name="Financial_Planning" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Financial_Planning_FullScore" size="1073741823" source="Formula: 12" type="V_WString" />
+            <Field name="Banking" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Banking_FullScore" size="1073741823" source="Formula: 8" type="V_WString" />
+            <Field name="Investments" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Investments_FullScore" size="1073741823" source="Formula: 15" type="V_WString" />
+            <Field name="Loans_And_Credit" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Loans_And_Credit_FullScore" size="1073741823" source="Formula: 8" type="V_WString" />
+            <Field name="Tax_Planning_FullScore" size="1073741823" source="Formula: 0" type="V_WString" />
+            <Field name="Tax_Planning" size="1073741823" source="Formula: 0" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="217" y="142" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="0" field="Tax_Planning" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="7" field="Money_FullScore" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="12" field="Financial_Planning_FullScore" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="8" field="Banking_FullScore" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="15" field="Investments_FullScore" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="8" field="Loans_And_Credit_FullScore" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="0" field="Tax_Planning_FullScore" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Tax_Planning = 0
+Money_FullScore = 7
+Financial_Planning_FullScore = 12
+Banking_F...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Serial No." source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Name" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="MobileNo" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="EmailID" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="BatchName" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="RollNo" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Paper ID" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Banking" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Financial Planning" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Investing" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Loans &amp; Credits" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Money" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="TotalScore" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total Correct Answer" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total Incorrect Answer" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Attempted Questions" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total UnAttempted Questions" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="RankNo" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="No. of Window Switch by Candidate" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total Window Switching Alerts" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="FraudSuspected" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="ScheduleDateTime" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="FinishExamTime" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="IsPass" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Tax_Planning" size="1073741823" source="Formula: 0" type="V_WString" />
+            <Field name="Money_FullScore" size="1073741823" source="Formula: 7" type="V_WString" />
+            <Field name="Financial_Planning_FullScore" size="1073741823" source="Formula: 12" type="V_WString" />
+            <Field name="Banking_FullScore" size="1073741823" source="Formula: 8" type="V_WString" />
+            <Field name="Investments_FullScore" size="1073741823" source="Formula: 15" type="V_WString" />
+            <Field name="Loans_And_Credit_FullScore" size="1073741823" source="Formula: 8" type="V_WString" />
+            <Field name="Tax_Planning_FullScore" size="1073741823" source="Formula: 0" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="412" y="142" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>FinishExamTime</Field>
+          <RegExExpression value="minutes" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression=":">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>FinishExamTime</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>StudentUsername_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="FinishExamTime" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Money" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Money_FullScore" size="1073741823" source="Formula: 7" type="V_WString" />
+            <Field name="Financial_Planning" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Financial_Planning_FullScore" size="1073741823" source="Formula: 12" type="V_WString" />
+            <Field name="Banking" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Banking_FullScore" size="1073741823" source="Formula: 8" type="V_WString" />
+            <Field name="Investments" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Investments_FullScore" size="1073741823" source="Formula: 15" type="V_WString" />
+            <Field name="Loans_And_Credit" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Loans_And_Credit_FullScore" size="1073741823" source="Formula: 8" type="V_WString" />
+            <Field name="Tax_Planning_FullScore" size="1073741823" source="Formula: 0" type="V_WString" />
+            <Field name="Tax_Planning" size="1073741823" source="Formula: 0" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="487" y="142" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>FinishExamTime</Field>
+          <RegExExpression value="and" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>FinishExamTime</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>StudentUsername_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="FinishExamTime" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Money" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Money_FullScore" size="1073741823" source="Formula: 7" type="V_WString" />
+            <Field name="Financial_Planning" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Financial_Planning_FullScore" size="1073741823" source="Formula: 12" type="V_WString" />
+            <Field name="Banking" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Banking_FullScore" size="1073741823" source="Formula: 8" type="V_WString" />
+            <Field name="Investments" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Investments_FullScore" size="1073741823" source="Formula: 15" type="V_WString" />
+            <Field name="Loans_And_Credit" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Loans_And_Credit_FullScore" size="1073741823" source="Formula: 8" type="V_WString" />
+            <Field name="Tax_Planning_FullScore" size="1073741823" source="Formula: 0" type="V_WString" />
+            <Field name="Tax_Planning" size="1073741823" source="Formula: 0" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="562" y="142" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>FinishExamTime</Field>
+          <RegExExpression value="seconds" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>FinishExamTime</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>StudentUsername_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="FinishExamTime" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Money" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Money_FullScore" size="1073741823" source="Formula: 7" type="V_WString" />
+            <Field name="Financial_Planning" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Financial_Planning_FullScore" size="1073741823" source="Formula: 12" type="V_WString" />
+            <Field name="Banking" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Banking_FullScore" size="1073741823" source="Formula: 8" type="V_WString" />
+            <Field name="Investments" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Investments_FullScore" size="1073741823" source="Formula: 15" type="V_WString" />
+            <Field name="Loans_And_Credit" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Loans_And_Credit_FullScore" size="1073741823" source="Formula: 8" type="V_WString" />
+            <Field name="Tax_Planning_FullScore" size="1073741823" source="Formula: 0" type="V_WString" />
+            <Field name="Tax_Planning" size="1073741823" source="Formula: 0" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings>
+        <Position x="652" y="142" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"StudentUsername","FinishExamTime","Money","Money_FullScore","Financial_Planning","Financial_Planning_FullScore","Banking","Banking_FullScore","Investments","Investments_FullScore","Loans_And_Credit","Loans_And_Credit_FullScore","Tax_Planning_FullScore","Tax_Planning"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output26">
+          <RecordInfo>
+            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="FinishExamTime" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Money" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Money_FullScore" size="1073741823" source="Formula: 7" type="V_WString" />
+            <Field name="Financial_Planning" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Financial_Planning_FullScore" size="1073741823" source="Formula: 12" type="V_WString" />
+            <Field name="Banking" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Banking_FullScore" size="1073741823" source="Formula: 8" type="V_WString" />
+            <Field name="Investments" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Investments_FullScore" size="1073741823" source="Formula: 15" type="V_WString" />
+            <Field name="Loans_And_Credit" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Loans_And_Credit_FullScore" size="1073741823" source="Formula: 8" type="V_WString" />
+            <Field name="Tax_Planning_FullScore" size="1073741823" source="Formula: 0" type="V_WString" />
+            <Field name="Tax_Planning" size="1073741823" source="Formula: 0" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+        <Position x="742" y="142" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <IsFrom value="False" />
+          <InputFieldName>FinishExamTime</InputFieldName>
+          <Language>English</Language>
+          <Format>mm : ss</Format>
+          <OutputFieldName>TImeTaken</OutputFieldName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Convert FinishExamTime From:
+Custom</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="FinishExamTime" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Money" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Money_FullScore" size="1073741823" source="Formula: 7" type="V_WString" />
+            <Field name="Financial_Planning" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Financial_Planning_FullScore" size="1073741823" source="Formula: 12" type="V_WString" />
+            <Field name="Banking" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Banking_FullScore" size="1073741823" source="Formula: 8" type="V_WString" />
+            <Field name="Investments" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Investments_FullScore" size="1073741823" source="Formula: 15" type="V_WString" />
+            <Field name="Loans_And_Credit" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Loans_And_Credit_FullScore" size="1073741823" source="Formula: 8" type="V_WString" />
+            <Field name="Tax_Planning_FullScore" size="1073741823" source="Formula: 0" type="V_WString" />
+            <Field name="Tax_Planning" size="1073741823" source="Formula: 0" type="V_WString" />
+            <Field name="TImeTaken" source="DateTime: To mm : ss" type="Time" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="847" y="142" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="StudentUsername" selected="True" />
+            <SelectField field="TImeTaken" selected="True" />
+            <SelectField field="FinishExamTime" selected="False" />
+            <SelectField field="Money" selected="True" />
+            <SelectField field="Money_FullScore" selected="True" />
+            <SelectField field="Financial_Planning" selected="True" />
+            <SelectField field="Financial_Planning_FullScore" selected="True" />
+            <SelectField field="Banking" selected="True" />
+            <SelectField field="Banking_FullScore" selected="True" />
+            <SelectField field="Investments" selected="True" />
+            <SelectField field="Investments_FullScore" selected="True" />
+            <SelectField field="Loans_And_Credit" selected="True" />
+            <SelectField field="Loans_And_Credit_FullScore" selected="True" />
+            <SelectField field="Tax_Planning" selected="True" />
+            <SelectField field="Tax_Planning_FullScore" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="TImeTaken" source="DateTime: To mm : ss" type="Time" />
+            <Field name="Money" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Money_FullScore" size="1073741823" source="Formula: 7" type="V_WString" />
+            <Field name="Financial_Planning" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Financial_Planning_FullScore" size="1073741823" source="Formula: 12" type="V_WString" />
+            <Field name="Banking" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Banking_FullScore" size="1073741823" source="Formula: 8" type="V_WString" />
+            <Field name="Investments" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Investments_FullScore" size="1073741823" source="Formula: 15" type="V_WString" />
+            <Field name="Loans_And_Credit" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Loans_And_Credit_FullScore" size="1073741823" source="Formula: 8" type="V_WString" />
+            <Field name="Tax_Planning" size="1073741823" source="Formula: 0" type="V_WString" />
+            <Field name="Tax_Planning_FullScore" size="1073741823" source="Formula: 0" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="112" y="142" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="True" />
+          <Name>Input9</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <Optional value="False" />
+          <FileInput>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+          </FileInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Book1.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Serial No." source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Name" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="MobileNo" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="EmailID" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="BatchName" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="RollNo" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="Paper ID" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Banking" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Financial Planning" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Investing" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Loans &amp; Credits" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Money" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="TotalScore" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total Correct Answer" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total Incorrect Answer" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Attempted Questions" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total UnAttempted Questions" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="RankNo" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="No. of Window Switch by Candidate" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="Total Window Switching Alerts" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+            <Field name="FraudSuspected" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="ScheduleDateTime" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="FinishExamTime" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+            <Field name="IsPass" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="982" y="142" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output11</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Output</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="1" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output26" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (11)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (9)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>eklavvya_logic</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="d85d7da6-5aee-42ff-981a-ed0c91e1ae09" />
+      <Telemetry>
+        <PreviousWorkflowId value="b1425467-0f36-43bb-8e56-b2a8449d811a" />
+        <OriginWorkflowId value="b1425467-0f36-43bb-8e56-b2a8449d811a" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (10)</Name>
+          <ToolId value="10" />
+          <Questions>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (11)</Description>
+              <Name>Macro Output (11)</Name>
+              <ToolId value="11" />
+            </Question>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description />
+              <Name>Macro Input (9)</Name>
+              <ToolId value="9" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="20" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="6" Selected="True" />
+        <Tool ToolId="11" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

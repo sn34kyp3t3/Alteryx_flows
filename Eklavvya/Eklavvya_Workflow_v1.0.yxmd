@@ -1,0 +1,556 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="817" y="157" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" Format="19" MaxRecords="">
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="802" y="457" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" Format="19" MaxRecords="">
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="67" y="322" width="645" height="55" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>PROCOTORED AND UNPROCTORED</Text>
+          <Font name="JetBrainsMono NFM ExtraBold" size="27.75" style="1" />
+          <TextColor name="Black" />
+          <FillColor name="Lime" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="72" y="405" width="634" height="368" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 19</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="97" y="472" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\..\Downloads\Book1.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Book1.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Serial No." source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Name" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="MobileNo" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="EmailID" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="BatchName" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="RollNo" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Paper ID" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Banking" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Financial Planning" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Investing" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Loans &amp; Credits" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Money" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="TotalScore" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Total Correct Answer" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Total Incorrect Answer" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Attempted Questions" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Total UnAttempted Questions" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="RankNo" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="No. of Window Switch by Candidate" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Total Window Switching Alerts" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="FraudSuspected" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="ScheduleDateTime" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="FinishExamTime" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="IsPass" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings>
+            <Position x="217" y="457" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"Serial No.","Name","MobileNo","EmailID","BatchName","RollNo","Paper ID","Banking","Financial Planning","Investing","Loans &amp; Credits","Money","TotalScore","Total Correct Answer","Total Incorrect Answer","Attempted Questions","Total UnAttempted Questions","RankNo","No. of Window Switch by Candidate","Total Window Switching Alerts","FraudSuspected","ScheduleDateTime","IsPass"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">True</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="517" y="457" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Warning</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="112" y="637" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\..\Downloads\Book1.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Book1.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Serial No." source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Name" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="MobileNo" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="EmailID" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="BatchName" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="RollNo" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Paper ID" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Banking" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Financial Planning" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Investing" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Loans &amp; Credits" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Money" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="TotalScore" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Total Correct Answer" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Total Incorrect Answer" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Attempted Questions" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Total UnAttempted Questions" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="RankNo" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="No. of Window Switch by Candidate" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Total Window Switching Alerts" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="FraudSuspected" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="ScheduleDateTime" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="FinishExamTime" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="IsPass" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings>
+            <Position x="202" y="637" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"Serial No.","Name","MobileNo","EmailID","BatchName","RollNo","Paper ID","Banking","Financial Planning","Investing","Loans &amp; Credits","Money","TotalScore","Total Correct Answer","Total Incorrect Answer","Attempted Questions","Total UnAttempted Questions","RankNo","No. of Window Switch by Candidate","Total Window Switching Alerts","FraudSuspected","ScheduleDateTime","IsPass"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">True</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="367" y="547" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="RollNo" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="RollNo" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_Serial No." selected="True" rename="Right_Serial No." input="Right_" />
+                    <SelectField field="Right_Name" selected="True" rename="Right_Name" input="Right_" />
+                    <SelectField field="Right_MobileNo" selected="True" rename="Right_MobileNo" input="Right_" />
+                    <SelectField field="Right_EmailID" selected="True" rename="Right_EmailID" input="Right_" />
+                    <SelectField field="Right_BatchName" selected="True" rename="Right_BatchName" input="Right_" />
+                    <SelectField field="Right_RollNo" selected="True" rename="Right_RollNo" input="Right_" />
+                    <SelectField field="Right_Paper ID" selected="True" rename="Right_Paper ID" input="Right_" />
+                    <SelectField field="Right_Banking" selected="True" rename="Right_Banking" input="Right_" />
+                    <SelectField field="Right_Financial Planning" selected="True" rename="Right_Financial Planning" input="Right_" />
+                    <SelectField field="Right_Investing" selected="True" rename="Right_Investing" input="Right_" />
+                    <SelectField field="Right_Loans &amp; Credits" selected="True" rename="Right_Loans &amp; Credits" input="Right_" />
+                    <SelectField field="Right_Money" selected="True" rename="Right_Money" input="Right_" />
+                    <SelectField field="Right_TotalScore" selected="True" rename="Right_TotalScore" input="Right_" />
+                    <SelectField field="Right_Total Correct Answer" selected="True" rename="Right_Total Correct Answer" input="Right_" />
+                    <SelectField field="Right_Total Incorrect Answer" selected="True" rename="Right_Total Incorrect Answer" input="Right_" />
+                    <SelectField field="Right_Attempted Questions" selected="True" rename="Right_Attempted Questions" input="Right_" />
+                    <SelectField field="Right_Total UnAttempted Questions" selected="True" rename="Right_Total UnAttempted Questions" input="Right_" />
+                    <SelectField field="Right_RankNo" selected="True" rename="Right_RankNo" input="Right_" />
+                    <SelectField field="Right_No. of Window Switch by Candidate" selected="True" rename="Right_No. of Window Switch by Candidate" input="Right_" />
+                    <SelectField field="Right_Total Window Switching Alerts" selected="True" rename="Right_Total Window Switching Alerts" input="Right_" />
+                    <SelectField field="Right_FraudSuspected" selected="True" rename="Right_FraudSuspected" input="Right_" />
+                    <SelectField field="Right_ScheduleDateTime" selected="True" rename="Right_ScheduleDateTime" input="Right_" />
+                    <SelectField field="Right_FinishExamTime" selected="True" rename="Right_FinishExamTime" input="Right_" />
+                    <SelectField field="Right_IsPass" selected="True" rename="Right_IsPass" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings>
+            <Position x="622" y="457" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro=".\eklavvya_logic.yxmc" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="87" y="105" width="634" height="188" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Container 19</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+            <Position x="112" y="157" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\..\Downloads\Book1.xlsx|||`Sheet1$`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Book1.xlsx
+Query=`Sheet1$`</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Serial No." source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Name" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="MobileNo" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="EmailID" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="BatchName" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="RollNo" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="Paper ID" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Banking" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Financial Planning" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Investing" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Loans &amp; Credits" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Money" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="TotalScore" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Total Correct Answer" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Total Incorrect Answer" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Attempted Questions" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Total UnAttempted Questions" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="RankNo" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="No. of Window Switch by Candidate" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="Total Window Switching Alerts" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="Double" />
+                <Field name="FraudSuspected" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="ScheduleDateTime" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="FinishExamTime" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+                <Field name="IsPass" size="255" source="File: C:\Users\malho\Downloads\Book1.xlsx|||`Sheet1$`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings>
+            <Position x="232" y="157" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"Serial No.","Name","MobileNo","EmailID","BatchName","RollNo","Paper ID","Banking","Financial Planning","Investing","Loans &amp; Credits","Money","TotalScore","Total Correct Answer","Total Incorrect Answer","Attempted Questions","Total UnAttempted Questions","RankNo","No. of Window Switch by Candidate","Total Window Switching Alerts","FraudSuspected","ScheduleDateTime","IsPass"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">True</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings>
+            <Position x="637" y="157" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro=".\eklavvya_logic.yxmc" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="16" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output26" />
+      <Destination ToolID="15" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output26" />
+      <Destination ToolID="15" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="20" Connection="Input9" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="17" Connection="Input2" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="17" Connection="Output26" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="15" Connection="Left" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output11" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output26" />
+      <Destination ToolID="28" Connection="Input9" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output11" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Eklavvya_Workflow_v1.0</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="1b4129b7-c24d-462a-aa6e-6335ff190210" />
+      <Telemetry>
+        <PreviousWorkflowId value="c92f3266-53fe-472b-9545-31d03acab137" />
+        <OriginWorkflowId value="c92f3266-53fe-472b-9545-31d03acab137" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,2459 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="52" y="52" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="True" />
+          <Name>Input_p</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <Optional value="False" />
+          <FileInput>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">..\..\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+          </FileInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="52" y="352" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="True" />
+          <Name>Input_up</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <Optional value="False" />
+          <FileInput>
+            <Configuration>
+              <Passwords />
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">..\..\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv</File>
+              <FormatSpecificOptions>
+                <HeaderRow>True</HeaderRow>
+                <IgnoreErrors>False</IgnoreErrors>
+                <AllowShareWrite>False</AllowShareWrite>
+                <ImportLine>1</ImportLine>
+                <FieldLen>254</FieldLen>
+                <SingleThreadRead>False</SingleThreadRead>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+                <Delimeter>,</Delimeter>
+                <QuoteRecordBreak>False</QuoteRecordBreak>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+            </Configuration>
+          </FileInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="172" y="52" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Candidates","Registered Full Name","Registered Mob. No.","Roll Number","Status","Score","Percentage of Grade","Finish ratio","Taken time","IP","Time Used","Operating System"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output26">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings>
+        <Position x="187" y="352" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"Candidates","Registered Full Name","Registered Mob. No.","Roll Number","Status","Score","Percentage of Grade","Finish ratio","Taken time","IP","Time Used","Operating System"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output26">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="442" y="187" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Roll Number" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Roll Number" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Candidates" selected="True" rename="Right_Candidates" input="Right_" />
+                <SelectField field="Right_Registered Full Name" selected="True" rename="Right_Registered Full Name" input="Right_" />
+                <SelectField field="Right_Registered Mob. No." selected="True" rename="Right_Registered Mob. No." input="Right_" />
+                <SelectField field="Right_Roll Number" selected="True" rename="Right_Roll Number" input="Right_" />
+                <SelectField field="Right_Scores" selected="True" rename="Right_Scores" input="Right_" />
+                <SelectField field="Right_Percentage of Grade" selected="True" rename="Right_Percentage of Grade" input="Right_" />
+                <SelectField field="Right_BankingScore" selected="True" rename="Right_BankingScore" input="Right_" />
+                <SelectField field="Right_BankingScores" selected="True" rename="Right_BankingScores" input="Right_" />
+                <SelectField field="Right_Tax PlanningScore" selected="True" rename="Right_Tax PlanningScore" input="Right_" />
+                <SelectField field="Right_Tax PlanningScores" selected="True" rename="Right_Tax PlanningScores" input="Right_" />
+                <SelectField field="Right_Financial PlanningScore" selected="True" rename="Right_Financial PlanningScore" input="Right_" />
+                <SelectField field="Right_Financial PlanningScores" selected="True" rename="Right_Financial PlanningScores" input="Right_" />
+                <SelectField field="Right_MoneyScore" selected="True" rename="Right_MoneyScore" input="Right_" />
+                <SelectField field="Right_MoneyScores" selected="True" rename="Right_MoneyScores" input="Right_" />
+                <SelectField field="Right_InvestmentsScore" selected="True" rename="Right_InvestmentsScore" input="Right_" />
+                <SelectField field="Right_InvestmentsScores" selected="True" rename="Right_InvestmentsScores" input="Right_" />
+                <SelectField field="Right_Loans and CreditScore" selected="True" rename="Right_Loans and CreditScore" input="Right_" />
+                <SelectField field="Right_Loans and CreditScores" selected="True" rename="Right_Loans and CreditScores" input="Right_" />
+                <SelectField field="Right_Status" selected="True" rename="Right_Status" input="Right_" />
+                <SelectField field="Right_Score" selected="True" rename="Right_Score" input="Right_" />
+                <SelectField field="Right_Finish ratio" selected="True" rename="Right_Finish ratio" input="Right_" />
+                <SelectField field="Right_Taken time" selected="True" rename="Right_Taken time" input="Right_" />
+                <SelectField field="Right_IP" selected="True" rename="Right_IP" input="Right_" />
+                <SelectField field="Right_Time Used" selected="True" rename="Right_Time Used" input="Right_" />
+                <SelectField field="Right_Operating System" selected="True" rename="Right_Operating System" input="Right_" />
+                <SelectField field="Right_Registration Number" selected="True" rename="Right_Registration Number" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Right_Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Right_Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Right_Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Right_Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Right_Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Right_Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Right_BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Right_BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Right_Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Right_Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Right_Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Right_Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Right_MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Right_MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Right_InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Right_InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Right_Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Right_Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="592" y="172" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Scores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="1021" y="172" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Roll Number</Field>
+          <RegExExpression value="...06..." />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="$&amp;">
+            <CopyUnmatched value="False" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Roll Number</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Candidates_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Scores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="1021" y="244" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Roll Number</Field>
+          <RegExExpression value="...07..." />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="$&amp;">
+            <CopyUnmatched value="False" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Roll Number</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Candidates_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Scores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="1009" y="316" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Roll Number</Field>
+          <RegExExpression value="...08..." />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="$&amp;">
+            <CopyUnmatched value="False" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Roll Number</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Candidates_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Scores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="1009" y="532" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Roll Number</Field>
+          <RegExExpression value="...11..." />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="$&amp;">
+            <CopyUnmatched value="False" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Roll Number</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Candidates_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Scores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="1009" y="460" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Roll Number</Field>
+          <RegExExpression value="...10..." />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="$&amp;">
+            <CopyUnmatched value="False" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Roll Number</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Candidates_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Scores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="1009" y="388" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Roll Number</Field>
+          <RegExExpression value="...09..." />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="$&amp;">
+            <CopyUnmatched value="False" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Roll Number</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Candidates_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Scores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="1009" y="604" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Roll Number</Field>
+          <RegExExpression value="...12..." />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="$&amp;">
+            <CopyUnmatched value="False" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Roll Number</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Candidates_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Scores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1201" y="232" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Scores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1153" y="424" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Scores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1162" y="562" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Scores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: (Multiple Sources)" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: (Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1537" y="247" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output6-8</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Output</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1477" y="412" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output9-10</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Output</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1462" y="562" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output11-12</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Output</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="262" y="352" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Roll Number</Field>
+          <RegExExpression value="O" />
+          <CaseInsensitve value="False" />
+          <Method>Replace</Method>
+          <Replace expression="0">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Roll Number</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Candidates_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="262" y="52" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Roll Number</Field>
+          <RegExExpression value="O" />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="0">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Roll Number</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Candidates_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="52" y="532" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="True" />
+          <Name>Input27</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <Optional value="False" />
+          <FileInput>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`</File>
+              <FormatSpecificOptions>
+                <FirstRowData>False</FirstRowData>
+                <ImportLine>1</ImportLine>
+              </FormatSpecificOptions>
+            </Configuration>
+          </FileInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Admin Sheet.xlsx
+Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="Double" />
+            <Field name="phone" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="Double" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings>
+        <Position x="262" y="532" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"student_username","name","grade","phone","email"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output26">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="172" y="532" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="grade" selected="True" type="V_String" size="2147483647" />
+            <SelectField field="phone" selected="True" type="V_String" size="2147483647" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="367" y="502" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>student_username</Field>
+          <RegExExpression value="...06..." />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="$&amp;">
+            <CopyUnmatched value="False" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>student_username</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Candidates_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="367" y="562" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>student_username</Field>
+          <RegExExpression value="...07..." />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="$&amp;">
+            <CopyUnmatched value="False" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>student_username</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Candidates_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="367" y="622" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>student_username</Field>
+          <RegExExpression value="...08..." />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="$&amp;">
+            <CopyUnmatched value="False" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>student_username</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Candidates_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="502" y="547" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="577" y="547" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotEmpty</Operator>
+            <Field>student_username</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-07-04 11:57:28</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2024-07-04 11:57:28</StartDate>
+              <EndDate>2024-07-04 11:57:28</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsEmpty([student_username])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="367" y="712" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>student_username</Field>
+          <RegExExpression value="...09..." />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="$&amp;">
+            <CopyUnmatched value="False" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>student_username</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Candidates_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="367" y="757" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>student_username</Field>
+          <RegExExpression value="...10..." />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="$&amp;">
+            <CopyUnmatched value="False" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>student_username</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Candidates_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="517" y="727" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="607" y="712" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotEmpty</Operator>
+            <Field>student_username</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-07-04 11:57:28</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2024-07-04 11:57:28</StartDate>
+              <EndDate>2024-07-04 11:57:28</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsEmpty([student_username])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="367" y="847" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>student_username</Field>
+          <RegExExpression value="...11..." />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="$&amp;">
+            <CopyUnmatched value="False" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>student_username</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Candidates_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="367" y="907" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>student_username</Field>
+          <RegExExpression value="...12..." />
+          <CaseInsensitve value="True" />
+          <Method>Replace</Method>
+          <Replace expression="$&amp;">
+            <CopyUnmatched value="False" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>student_username</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="No Marked Groups Found" type="No Marked Groups Found" size="No Marked Groups Found" />
+          </ParseComplex>
+          <Match>
+            <Field>Candidates_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="502" y="862" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="592" y="847" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotEmpty</Operator>
+            <Field>student_username</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-07-04 11:57:28</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2024-07-04 11:57:28</StartDate>
+              <EndDate>2024-07-04 11:57:28</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsEmpty([student_username])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings>
+        <Position x="1327" y="652" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>admin_checks_11-12 (45)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output30">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output10">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output9">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output8">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Error" size="1073741823" source="Formula: &quot;Invalid roll number entered&quot;" type="V_WString" />
+            <Field name="Exam_written_for" size="1073741823" source="Formula: &quot;11-12&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output20">
+          <RecordInfo>
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Exam_written_for" size="1073741823" source="Formula: &quot;11-12&quot;" type="V_WString" />
+            <Field name="Error" size="1073741823" source="Formula: &quot;Invalid Phone Number but Valid Roll Number&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro=".\admin_checks_11-12.yxmc" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings>
+        <Position x="1327" y="472" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>admin_checks_9-10 (36)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output34">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output10">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output9">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output8">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Error" size="1073741823" source="Formula: &quot;Invalid roll number entered&quot;" type="V_WString" />
+            <Field name="Exam_written_for" size="1073741823" source="Formula: &quot;9-10&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output33">
+          <RecordInfo>
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Exam_written_for" size="1073741823" source="Formula: &quot;9-10&quot;" type="V_WString" />
+            <Field name="Error" size="1073741823" source="Formula: &quot;Invalid Phone Number but Valid Roll Number&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro=".\admin_checks_9-10.yxmc" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings>
+        <Position x="1327" y="307" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>admin_checks_6-8 (35)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output42">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output9">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output10">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output8">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Error" size="1073741823" source="Formula: &quot;Invalid roll number entered&quot;" type="V_WString" />
+            <Field name="Exam_written_for" size="1073741823" source="Formula: &quot;6-8&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output20">
+          <RecordInfo>
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Exam_written_for" size="1073741823" source="Formula: &quot;6-8&quot;" type="V_WString" />
+            <Field name="Error" size="1073741823" source="Formula: &quot;Invalid Phone Number but Valid Roll Number&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro=".\admin_checks_6-8.yxmc" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1087" y="37" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output55</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Output</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output26" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output26" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="6" Connection="Left" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="54" Connection="Input1" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="True" />
+      <Destination ToolID="54" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="52" Connection="Input1" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="True" />
+      <Destination ToolID="52" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="53" Connection="Input1" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="True" />
+      <Destination ToolID="53" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="6" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="6" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output26" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output26" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output26" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output26" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output26" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output26" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output26" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="28" Connection="Input2" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output9" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output9" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output9" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (2)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (3)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (21)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (22)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (23)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (27)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (55)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>filter_1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="6ca698d0-4a6e-4f6b-b57d-815f45ec8f4b" />
+      <Telemetry>
+        <PreviousWorkflowId value="69b84cdf-6882-44b2-8982-669f356b79dd" />
+        <OriginWorkflowId value="fb80cf5d-eca1-4368-b3e6-900ab6a5f8a8" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (19)</Name>
+          <ToolId value="19" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description />
+              <Name>Macro Input (2)</Name>
+              <ToolId value="2" />
+            </Question>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description />
+              <Name>Macro Input (3)</Name>
+              <ToolId value="3" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (21)</Description>
+              <Name>Macro Output (21)</Name>
+              <ToolId value="21" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (21)</Description>
+              <Name>Macro Output (22)</Name>
+              <ToolId value="22" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (21)</Description>
+              <Name>Macro Output (23)</Name>
+              <ToolId value="23" />
+            </Question>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description />
+              <Name>Macro Input (27)</Name>
+              <ToolId value="27" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (55)</Description>
+              <Name>Macro Output (55)</Name>
+              <ToolId value="55" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="36" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="2" Selected="True" />
+        <Tool ToolId="3" Selected="True" />
+        <Tool ToolId="4" Selected="True" />
+        <Tool ToolId="5" Selected="True" />
+        <Tool ToolId="21" Selected="True" />
+        <Tool ToolId="22" Selected="True" />
+        <Tool ToolId="23" Selected="True" />
+        <Tool ToolId="27" Selected="True" />
+        <Tool ToolId="28" Selected="True" />
+        <Tool ToolId="53" Selected="True" />
+        <Tool ToolId="52" Selected="True" />
+        <Tool ToolId="54" Selected="True" />
+        <Tool ToolId="55" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
