@@ -6,6 +6,7 @@
         <Position x="0" y="0" width="59" height="59" />
       </GuiSettings>
       <Properties>
+        <Configuration />
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />
@@ -15,7 +16,7 @@
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="142" y="412" />
+        <Position x="67" y="397" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -55,7 +56,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="127" y="67" />
+        <Position x="52" y="52" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -81,9 +82,6 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
 Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
           <Left value="True" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Candidates" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_9-1029thJune2024_(40records)(numbers1-40)-2024-07-03 (1).xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
@@ -105,7 +103,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="127" y="217" />
+        <Position x="52" y="202" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -138,9 +136,6 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
           <DefaultAnnotationText>Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv</DefaultAnnotationText>
           <Left value="True" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
@@ -168,7 +163,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="292" y="127" />
+        <Position x="217" y="112" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -292,7 +287,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1447" y="112" />
+        <Position x="1372" y="97" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -349,7 +344,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="1552" y="112" />
+        <Position x="1477" y="97" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -367,7 +362,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="967" y="217" />
+        <Position x="892" y="202" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -407,7 +402,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="967" y="412" />
+        <Position x="892" y="397" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -447,7 +442,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="1267" y="112" />
+        <Position x="1192" y="97" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -487,7 +482,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="19">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="697" y="172" />
+        <Position x="622" y="157" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -578,7 +573,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="20">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="772" y="262" />
+        <Position x="697" y="247" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -684,7 +679,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="21">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="862" y="292" />
+        <Position x="787" y="277" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -736,7 +731,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="862" y="217" />
+        <Position x="787" y="202" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -788,7 +783,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="23">
       <GuiSettings>
-        <Position x="532" y="112" />
+        <Position x="457" y="97" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -881,7 +876,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="24">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="1507" y="262" />
+        <Position x="1432" y="247" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -899,7 +894,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1372" y="262" />
+        <Position x="1297" y="247" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -936,6 +931,24 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1297" y="397" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output26</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Output</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
     </Node>
   </Nodes>
   <Connections>
@@ -1012,6 +1025,10 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
       <Destination ToolID="25" Connection="Input" />
     </Connection>
     <Connection>
+      <Origin ToolID="23" Connection="Output10" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
       <Origin ToolID="25" Connection="Output" />
       <Destination ToolID="24" Connection="Input" />
     </Connection>
@@ -1063,6 +1080,12 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
       <Constant>
         <Namespace>Question</Namespace>
         <Name>Macro Output (24)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (26)</Name>
         <Value />
         <IsNumeric value="False" />
       </Constant>
@@ -1133,6 +1156,12 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
               <Name>Macro Output (24)</Name>
               <ToolId value="24" />
             </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (26)</Description>
+              <Name>Macro Output (26)</Name>
+              <ToolId value="26" />
+            </Question>
           </Questions>
         </Question>
       </Questions>
@@ -1152,6 +1181,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         <Tool ToolId="14" Selected="True" />
         <Tool ToolId="23" Selected="True" />
         <Tool ToolId="24" Selected="True" />
+        <Tool ToolId="26" Selected="True" />
       </Wiz_OpenOutputTools>
       <Wiz_OutputMessage />
       <Wiz_NoOutputFilesMessage />

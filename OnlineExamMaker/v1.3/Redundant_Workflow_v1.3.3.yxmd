@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="17">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="2436" y="222" />
+        <Position x="2488" y="241" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -30,7 +30,7 @@
     </Node>
     <Node ToolID="23">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2508" y="234" width="216" height="40" />
+        <Position x="2560" y="253" width="216" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -50,7 +50,7 @@
     </Node>
     <Node ToolID="63">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="2448" y="330" />
+        <Position x="2500" y="349" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -77,7 +77,7 @@
     </Node>
     <Node ToolID="64">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2508" y="330" width="216" height="52" />
+        <Position x="2560" y="349" width="216" height="52" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -97,7 +97,7 @@
     </Node>
     <Node ToolID="67">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="780" y="357" />
+        <Position x="832" y="376" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -124,7 +124,7 @@
     </Node>
     <Node ToolID="69">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="852" y="345" width="180" height="72" />
+        <Position x="904" y="364" width="180" height="72" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -157,7 +157,7 @@
     </Node>
     <Node ToolID="189">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="780" y="249" />
+        <Position x="832" y="268" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -184,7 +184,7 @@
     </Node>
     <Node ToolID="190">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="852" y="237" width="180" height="72" />
+        <Position x="904" y="256" width="180" height="72" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -204,7 +204,7 @@
     </Node>
     <Node ToolID="199">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="792" y="129" />
+        <Position x="844" y="148" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -231,7 +231,7 @@
     </Node>
     <Node ToolID="200">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="852" y="129" width="168" height="72" />
+        <Position x="904" y="148" width="168" height="72" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -252,7 +252,7 @@
     </Node>
     <Node ToolID="202">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="2436" y="126" />
+        <Position x="2488" y="145" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -279,7 +279,7 @@
     </Node>
     <Node ToolID="204">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2506" y="127" width="204" height="40" />
+        <Position x="2558" y="146" width="204" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -299,7 +299,7 @@
     </Node>
     <Node ToolID="211">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="3198" y="127" />
+        <Position x="3250" y="146" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -321,15 +321,12 @@
           <DefaultAnnotationText>master_output.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
     <Node ToolID="212">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="2943" y="127" />
+        <Position x="2995" y="146" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -367,7 +364,7 @@
     </Node>
     <Node ToolID="217">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="3255" y="105" width="396" height="84" />
+        <Position x="3307" y="124" width="396" height="84" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -387,7 +384,7 @@
     </Node>
     <Node ToolID="230">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="3198" y="352" />
+        <Position x="3250" y="371" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -408,15 +405,12 @@
 Query=empty</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
     <Node ToolID="231">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="2958" y="352" />
+        <Position x="3010" y="371" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -456,7 +450,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="232">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="3267" y="333" width="396" height="84" />
+        <Position x="3319" y="352" width="396" height="84" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -476,7 +470,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="236">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="57" y="33" width="528" height="96" />
+        <Position x="109" y="52" width="528" height="96" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -496,7 +490,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="238">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="57" y="165" width="528" height="40" />
+        <Position x="109" y="184" width="528" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -516,7 +510,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="239">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="57" y="225" width="528" height="40" />
+        <Position x="109" y="244" width="528" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -536,7 +530,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="240">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="57" y="285" width="528" height="40" />
+        <Position x="109" y="304" width="528" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -556,7 +550,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="255">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="756" y="69" width="324" height="40" />
+        <Position x="808" y="88" width="324" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -576,7 +570,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="274">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-        <Position x="3093" y="127" />
+        <Position x="3145" y="146" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -632,7 +626,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="279">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="2461" y="52" width="324" height="40" />
+        <Position x="2513" y="71" width="324" height="40" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -652,7 +646,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="322">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="1308" y="457" />
+        <Position x="1360" y="476" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -679,7 +673,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="323">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1383" y="457" width="180" height="72" />
+        <Position x="1435" y="476" width="180" height="72" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -699,7 +693,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="324">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="1293" y="337" />
+        <Position x="1345" y="356" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -723,7 +717,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="325">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1368" y="322" width="180" height="72" />
+        <Position x="1420" y="341" width="180" height="72" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -743,7 +737,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="326">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="1308" y="217" />
+        <Position x="1360" y="236" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -767,7 +761,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="327">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1368" y="217" width="168" height="72" />
+        <Position x="1420" y="236" width="168" height="72" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -788,7 +782,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="328">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1278" y="52" width="750" height="45" />
+        <Position x="1330" y="71" width="750" height="45" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -808,7 +802,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="359">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="1758" y="457" />
+        <Position x="1810" y="476" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -832,7 +826,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="360">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1833" y="457" width="180" height="72" />
+        <Position x="1885" y="476" width="180" height="72" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -852,7 +846,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="361">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="1743" y="337" />
+        <Position x="1795" y="356" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -876,7 +870,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="362">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1818" y="322" width="180" height="72" />
+        <Position x="1870" y="341" width="180" height="72" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -896,7 +890,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="363">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="1758" y="217" />
+        <Position x="1810" y="236" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -920,7 +914,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="364">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1818" y="217" width="168" height="72" />
+        <Position x="1870" y="236" width="168" height="72" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -941,7 +935,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="365">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1293" y="142" width="300" height="30" />
+        <Position x="1345" y="161" width="300" height="30" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -963,7 +957,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="366">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1713" y="142" width="315" height="30" />
+        <Position x="1765" y="161" width="315" height="30" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -984,7 +978,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="451">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="3048" y="352" />
+        <Position x="3100" y="371" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1064,7 +1058,7 @@ Query=empty</DefaultAnnotationText>
     </Node>
     <Node ToolID="455">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="3123" y="352" />
+        <Position x="3175" y="371" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1105,7 +1099,7 @@ Tax_Planning_FullScore = ToNumber([Tax_P...</DefaultAnnotationText>
     </Node>
     <Node ToolID="456">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="3018" y="127" />
+        <Position x="3070" y="146" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1144,7 +1138,7 @@ Tax_Planning_FullScore = ToNumber([Tax_P...</DefaultAnnotationText>
     </Node>
     <Node ToolID="89">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="37" y="832" width="240" height="384" />
+        <Position x="89" y="851" width="240" height="384" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1164,7 +1158,7 @@ Tax_Planning_FullScore = ToNumber([Tax_P...</DefaultAnnotationText>
     </Node>
     <Node ToolID="90">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="637" y="817" width="240" height="384" />
+        <Position x="689" y="836" width="240" height="384" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1184,7 +1178,7 @@ Tax_Planning_FullScore = ToNumber([Tax_P...</DefaultAnnotationText>
     </Node>
     <Node ToolID="32">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="22" y="1507" width="240" height="384" />
+        <Position x="74" y="1526" width="240" height="384" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1204,7 +1198,7 @@ Tax_Planning_FullScore = ToNumber([Tax_P...</DefaultAnnotationText>
     </Node>
     <Node ToolID="33">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="652" y="1492" width="240" height="384" />
+        <Position x="704" y="1511" width="240" height="384" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1224,7 +1218,7 @@ Tax_Planning_FullScore = ToNumber([Tax_P...</DefaultAnnotationText>
     </Node>
     <Node ToolID="36">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="37" y="2227" width="240" height="384" />
+        <Position x="89" y="2246" width="240" height="384" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1244,7 +1238,7 @@ Tax_Planning_FullScore = ToNumber([Tax_P...</DefaultAnnotationText>
     </Node>
     <Node ToolID="589">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1357" y="1552" width="375" height="315" />
+        <Position x="1409" y="1571" width="375" height="315" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1264,7 +1258,7 @@ Tax_Planning_FullScore = ToNumber([Tax_P...</DefaultAnnotationText>
     </Node>
     <Node ToolID="590">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1327" y="2227" width="375" height="315" />
+        <Position x="1379" y="2246" width="375" height="315" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1284,7 +1278,7 @@ Tax_Planning_FullScore = ToNumber([Tax_P...</DefaultAnnotationText>
     </Node>
     <Node ToolID="591">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="1342" y="892" width="375" height="315" />
+        <Position x="1394" y="911" width="375" height="315" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1305,7 +1299,7 @@ Tax_Planning_FullScore = ToNumber([Tax_P...</DefaultAnnotationText>
     </Node>
     <Node ToolID="35">
       <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-        <Position x="637" y="2212" width="240" height="384" />
+        <Position x="689" y="2231" width="240" height="384" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1323,9 +1317,81 @@ Tax_Planning_FullScore = ToNumber([Tax_P...</DefaultAnnotationText>
         </Annotation>
       </Properties>
     </Node>
+    <Node ToolID="621">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="3232" y="997" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" Format="19" MaxRecords="">
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="623">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="3127" y="1687" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" Format="19" MaxRecords="">
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="624">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="3187" y="2332" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" Format="19" MaxRecords="">
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
     <Node ToolID="592">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="327" y="675" width="260" height="679" />
+        <Position x="379" y="694" width="260" height="680" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1341,7 +1407,7 @@ Tax_Planning_FullScore = ToNumber([Tax_P...</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="93">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="442" y="727" />
+            <Position x="494" y="746" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1379,7 +1445,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         </Node>
         <Node ToolID="94">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="457" y="1027" />
+            <Position x="509" y="1046" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1417,7 +1483,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         </Node>
         <Node ToolID="219">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="352" y="727" width="60" height="72" />
+            <Position x="404" y="746" width="60" height="72" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1437,7 +1503,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         </Node>
         <Node ToolID="229">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="367" y="1027" width="60" height="72" />
+            <Position x="419" y="1046" width="60" height="72" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1459,7 +1525,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="588">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="0" y="390" width="575" height="254" />
+        <Position x="52" y="409" width="575" height="254" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1477,7 +1543,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="419">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="412" y="472" />
+            <Position x="464" y="491" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1508,7 +1574,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
         </Node>
         <Node ToolID="587">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="25" y="442" width="525" height="120" />
+            <Position x="77" y="461" width="525" height="120" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1530,7 +1596,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
     </Node>
     <Node ToolID="527">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1737" y="735" width="1279" height="651" />
+        <Position x="1789" y="754" width="1279" height="652" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1548,7 +1614,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="256">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="2377" y="787" />
+            <Position x="2429" y="806" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1583,7 +1649,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
         </Node>
         <Node ToolID="258">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="2647" y="847" />
+            <Position x="2699" y="866" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1624,7 +1690,7 @@ Exam_written_for = "11-12"
         </Node>
         <Node ToolID="259">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="2782" y="847" />
+            <Position x="2834" y="866" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1696,7 +1762,7 @@ Exam_written_for = "11-12"
         </Node>
         <Node ToolID="273">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="2362" y="937" />
+            <Position x="2414" y="956" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1737,7 +1803,7 @@ Exam_written_for = "11-12"
         </Node>
         <Node ToolID="280">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="2707" y="1117" />
+            <Position x="2759" y="1136" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1805,7 +1871,7 @@ Exam_written_for = "11-12"
         </Node>
         <Node ToolID="309">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-            <Position x="2932" y="1117" />
+            <Position x="2984" y="1136" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1861,7 +1927,7 @@ Exam_written_for = "11-12"
         </Node>
         <Node ToolID="312">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="2812" y="1117" />
+            <Position x="2864" y="1136" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -1898,7 +1964,7 @@ Exam_written_for = "11-12"
         </Node>
         <Node ToolID="434">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="2527" y="1117" />
+            <Position x="2579" y="1136" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -1996,7 +2062,7 @@ Exam_written_for = "11-12"
         </Node>
         <Node ToolID="442">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="2632" y="1267" />
+            <Position x="2684" y="1286" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2022,7 +2088,7 @@ Exam_written_for = "11-12"
         </Node>
         <Node ToolID="452">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="2527" y="1267" />
+            <Position x="2579" y="1286" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2083,7 +2149,7 @@ Exam_written_for = "11-12"
         </Node>
         <Node ToolID="531">
           <GuiSettings>
-            <Position x="2392" y="1267" />
+            <Position x="2444" y="1286" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -2092,12 +2158,29 @@ Exam_written_for = "11-12"
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
+            <MetaInfo connection="Output30">
+              <RecordInfo>
+                <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+                <Field name="TimeTaken" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+                <Field name="Money" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Banking" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Investments" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Error" size="16384" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
           </Properties>
           <EngineSettings Macro=".\filter_3.yxmc" />
         </Node>
         <Node ToolID="546">
           <GuiSettings>
-            <Position x="2527" y="832" />
+            <Position x="2579" y="851" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -2106,12 +2189,30 @@ Exam_written_for = "11-12"
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
+            <MetaInfo connection="Output16">
+              <RecordInfo>
+                <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+                <Field name="TimeTaken" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
+                <Field name="Money" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Banking" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Investments" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Tax_Planning" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Tax_Planning_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
           </Properties>
           <EngineSettings Macro=".\filter_2.yxmc" />
         </Node>
         <Node ToolID="576">
           <GuiSettings>
-            <Position x="1762" y="802" />
+            <Position x="1814" y="821" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -2189,7 +2290,7 @@ Exam_written_for = "11-12"
         </Node>
         <Node ToolID="577">
           <GuiSettings>
-            <Position x="1822" y="1162" />
+            <Position x="1874" y="1181" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -2289,9 +2390,9 @@ Exam_written_for = "11-12"
           </Properties>
           <EngineSettings Macro=".\filter_1.yxmc" />
         </Node>
-        <Node ToolID="585">
+        <Node ToolID="620">
           <GuiSettings>
-            <Position x="2107" y="982" />
+            <Position x="2159" y="1001" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -2300,6 +2401,53 @@ Exam_written_for = "11-12"
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
+            <MetaInfo connection="Output15">
+              <RecordInfo>
+                <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+                <Field name="TimeTaken" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
+                <Field name="Money" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Banking" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Investments" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Tax_Planning" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Tax_Planning_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Output14">
+              <RecordInfo>
+                <Field name="Error" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="Exam_written_for" size="1073741823" source="Formula: &quot;11-12&quot;" type="V_WString" />
+                <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+                <Field name="TimeTaken" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
+                <Field name="Money" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Banking" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Investments" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Tax_Planning" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+                <Field name="Tax_Planning_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Output18">
+              <RecordInfo>
+                <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+                <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+                <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+                <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+                <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
           </Properties>
           <EngineSettings Macro=".\admin_checks_11-12_big.yxmc" />
         </Node>
@@ -2307,7 +2455,7 @@ Exam_written_for = "11-12"
     </Node>
     <Node ToolID="526">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1752" y="1425" width="1249" height="626" />
+        <Position x="1804" y="1444" width="1249" height="627" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -2325,7 +2473,7 @@ Exam_written_for = "11-12"
       <ChildNodes>
         <Node ToolID="153">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="2362" y="1477" />
+            <Position x="2414" y="1496" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2360,7 +2508,7 @@ Exam_written_for = "11-12"
         </Node>
         <Node ToolID="191">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="2362" y="1597" />
+            <Position x="2414" y="1616" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2399,7 +2547,7 @@ Exam_written_for = "11-12"
         </Node>
         <Node ToolID="235">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="2557" y="1537" />
+            <Position x="2609" y="1556" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2438,7 +2586,7 @@ Exam_written_for = "9-10"
         </Node>
         <Node ToolID="260">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="2857" y="1537" />
+            <Position x="2909" y="1556" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2506,7 +2654,7 @@ Exam_written_for = "9-10"
         </Node>
         <Node ToolID="281">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="2632" y="1747" />
+            <Position x="2684" y="1766" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2570,7 +2718,7 @@ Exam_written_for = "9-10"
         </Node>
         <Node ToolID="315">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-            <Position x="2917" y="1762" />
+            <Position x="2969" y="1781" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2626,7 +2774,7 @@ Exam_written_for = "9-10"
         </Node>
         <Node ToolID="316">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="2782" y="1762" />
+            <Position x="2834" y="1781" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2667,7 +2815,7 @@ Total Score = ToNumber([Money])+toNu...</DefaultAnnotationText>
         </Node>
         <Node ToolID="433">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="2512" y="1762" />
+            <Position x="2564" y="1781" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -2771,7 +2919,7 @@ Total Score = ToNumber([Money])+toNu...</DefaultAnnotationText>
         </Node>
         <Node ToolID="443">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="2617" y="1882" />
+            <Position x="2669" y="1901" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2797,7 +2945,7 @@ Total Score = ToNumber([Money])+toNu...</DefaultAnnotationText>
         </Node>
         <Node ToolID="453">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="2482" y="1897" />
+            <Position x="2534" y="1916" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2869,7 +3017,7 @@ Total Score = ToNumber([Money])+toNu...</DefaultAnnotationText>
         </Node>
         <Node ToolID="532">
           <GuiSettings>
-            <Position x="2167" y="1852" />
+            <Position x="2219" y="1871" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -2878,12 +3026,29 @@ Total Score = ToNumber([Money])+toNu...</DefaultAnnotationText>
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
+            <MetaInfo connection="Output30">
+              <RecordInfo>
+                <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_9-1029thJune2024_(40records)(numbers1-40)-2024-07-03 (1).xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+                <Field name="TimeTaken" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_9-1029thJune2024_(40records)(numbers1-40)-2024-07-03 (1).xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+                <Field name="Money" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Banking" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Investments" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Error" size="16384" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
           </Properties>
           <EngineSettings Macro=".\filter_3.yxmc" />
         </Node>
         <Node ToolID="536">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="2392" y="1897" />
+            <Position x="2444" y="1916" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2923,7 +3088,7 @@ Tax_Planning_FullScore = 0
         </Node>
         <Node ToolID="547">
           <GuiSettings>
-            <Position x="2467" y="1537" />
+            <Position x="2519" y="1556" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -2932,12 +3097,28 @@ Tax_Planning_FullScore = 0
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
+            <MetaInfo connection="Output16">
+              <RecordInfo>
+                <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_9-1029thJune2024_(40records)(numbers1-40)-2024-07-03 (1).xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+                <Field name="TimeTaken" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_9-1029thJune2024_(40records)(numbers1-40)-2024-07-03 (1).xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
+                <Field name="Money" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Banking" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Investments" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
           </Properties>
           <EngineSettings Macro=".\filter_2.yxmc" />
         </Node>
         <Node ToolID="558">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="2692" y="1537" />
+            <Position x="2744" y="1556" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -2989,7 +3170,7 @@ Tax_Planning_FullScore = 0
         </Node>
         <Node ToolID="578">
           <GuiSettings>
-            <Position x="1777" y="1477" />
+            <Position x="1829" y="1496" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3067,7 +3248,7 @@ Tax_Planning_FullScore = 0
         </Node>
         <Node ToolID="579">
           <GuiSettings>
-            <Position x="1807" y="1852" />
+            <Position x="1859" y="1870" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3159,9 +3340,9 @@ Tax_Planning_FullScore = 0
           </Properties>
           <EngineSettings Macro=".\filter_1.yxmc" />
         </Node>
-        <Node ToolID="586">
+        <Node ToolID="622">
           <GuiSettings>
-            <Position x="2122" y="1672" />
+            <Position x="2174" y="1691" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3170,6 +3351,49 @@ Tax_Planning_FullScore = 0
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
+            <MetaInfo connection="Output24">
+              <RecordInfo>
+                <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_9-1029thJune2024_(40records)(numbers1-40)-2024-07-03 (1).xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+                <Field name="TimeTaken" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_9-1029thJune2024_(40records)(numbers1-40)-2024-07-03 (1).xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
+                <Field name="Money" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Banking" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Investments" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Output56">
+              <RecordInfo>
+                <Field name="Error" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="Exam_written_for" size="1073741823" source="Formula: &quot;9-10&quot;" type="V_WString" />
+                <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_9-1029thJune2024_(40records)(numbers1-40)-2024-07-03 (1).xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+                <Field name="TimeTaken" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_9-1029thJune2024_(40records)(numbers1-40)-2024-07-03 (1).xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
+                <Field name="Money" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Banking" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Investments" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+                <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(9-10).csv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Output26">
+              <RecordInfo>
+                <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+                <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+                <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+                <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+                <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
           </Properties>
           <EngineSettings Macro=".\admin_checks_9-10_big.yxmc" />
         </Node>
@@ -3177,7 +3401,7 @@ Tax_Planning_FullScore = 0
     </Node>
     <Node ToolID="525">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="1737" y="2085" width="1263" height="582" />
+        <Position x="1789" y="2104" width="1264" height="582" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -3195,7 +3419,7 @@ Tax_Planning_FullScore = 0
       <ChildNodes>
         <Node ToolID="252">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="2692" y="2197" />
+            <Position x="2744" y="2216" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3234,7 +3458,7 @@ Error = "Valid roll no. but Wrong exam written"
         </Node>
         <Node ToolID="253">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="2482" y="2182" />
+            <Position x="2534" y="2201" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3269,7 +3493,7 @@ Error = "Valid roll no. but Wrong exam written"
         </Node>
         <Node ToolID="254">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-            <Position x="2482" y="2257" />
+            <Position x="2534" y="2276" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3308,7 +3532,7 @@ Error = "Valid roll no. but Wrong exam written"
         </Node>
         <Node ToolID="261">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="2872" y="2197" />
+            <Position x="2924" y="2216" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3376,7 +3600,7 @@ Error = "Valid roll no. but Wrong exam written"
         </Node>
         <Node ToolID="282">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-            <Position x="2557" y="2407" />
+            <Position x="2609" y="2426" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3440,7 +3664,7 @@ Error = "Valid roll no. but Wrong exam written"
         </Node>
         <Node ToolID="319">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
-            <Position x="2797" y="2407" />
+            <Position x="2849" y="2426" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3496,7 +3720,7 @@ Error = "Valid roll no. but Wrong exam written"
         </Node>
         <Node ToolID="432">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-            <Position x="2422" y="2407" />
+            <Position x="2474" y="2426" />
           </GuiSettings>
           <Properties>
             <Configuration joinByRecordPos="False">
@@ -3600,7 +3824,7 @@ Error = "Valid roll no. but Wrong exam written"
         </Node>
         <Node ToolID="444">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="2437" y="2512" />
+            <Position x="2489" y="2531" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3639,7 +3863,7 @@ Error = "Valid roll no. but Wrong exam written"
         </Node>
         <Node ToolID="533">
           <GuiSettings>
-            <Position x="2122" y="2482" />
+            <Position x="2174" y="2501" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3648,12 +3872,29 @@ Error = "Valid roll no. but Wrong exam written"
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
+            <MetaInfo connection="Output30">
+              <RecordInfo>
+                <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+                <Field name="TimeTaken" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+                <Field name="Money" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Banking" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Investments" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Error" size="16384" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
           </Properties>
           <EngineSettings Macro=".\filter_3.yxmc" />
         </Node>
         <Node ToolID="534">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="2287" y="2512" />
+            <Position x="2339" y="2531" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3693,7 +3934,7 @@ Tax_Planning_FullScore = 0
         </Node>
         <Node ToolID="540">
           <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-            <Position x="2677" y="2407" />
+            <Position x="2729" y="2426" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3734,7 +3975,7 @@ Total Score = ToNumber([Money])+toNu...</DefaultAnnotationText>
         </Node>
         <Node ToolID="548">
           <GuiSettings>
-            <Position x="2602" y="2212" />
+            <Position x="2654" y="2231" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3743,12 +3984,28 @@ Total Score = ToNumber([Money])+toNu...</DefaultAnnotationText>
               <DefaultAnnotationText />
               <Left value="False" />
             </Annotation>
+            <MetaInfo connection="Output16">
+              <RecordInfo>
+                <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+                <Field name="TimeTaken" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
+                <Field name="Money" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Banking" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Investments" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
           </Properties>
           <EngineSettings Macro=".\filter_2.yxmc" />
         </Node>
         <Node ToolID="559">
           <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-            <Position x="2782" y="2197" />
+            <Position x="2834" y="2216" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -3798,23 +4055,9 @@ Total Score = ToNumber([Money])+toNu...</DefaultAnnotationText>
           </Properties>
           <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
         </Node>
-        <Node ToolID="575">
-          <GuiSettings>
-            <Position x="2062" y="2302" />
-          </GuiSettings>
-          <Properties>
-            <Configuration />
-            <Annotation DisplayMode="0">
-              <Name>admin_checks_6-8_big (552)</Name>
-              <DefaultAnnotationText />
-              <Left value="False" />
-            </Annotation>
-          </Properties>
-          <EngineSettings Macro=".\admin_checks_6-8_big.yxmc" />
-        </Node>
         <Node ToolID="580">
           <GuiSettings>
-            <Position x="1762" y="2137" />
+            <Position x="1814" y="2156" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3892,7 +4135,7 @@ Total Score = ToNumber([Money])+toNu...</DefaultAnnotationText>
         </Node>
         <Node ToolID="581">
           <GuiSettings>
-            <Position x="1792" y="2497" />
+            <Position x="1844" y="2516" />
           </GuiSettings>
           <Properties>
             <Configuration />
@@ -3984,11 +4227,68 @@ Total Score = ToNumber([Money])+toNu...</DefaultAnnotationText>
           </Properties>
           <EngineSettings Macro=".\filter_1.yxmc" />
         </Node>
+        <Node ToolID="625">
+          <GuiSettings>
+            <Position x="2114" y="2321" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>admin_checks_6-8_big (552)</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output62">
+              <RecordInfo>
+                <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+                <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+                <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+                <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+                <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Output60">
+              <RecordInfo>
+                <Field name="StudentUsername" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+                <Field name="TimeTaken" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
+                <Field name="Money" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Banking" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Investments" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Output56">
+              <RecordInfo>
+                <Field name="Error" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="Exam_written_for" size="1073741823" source="Formula: &quot;6-8&quot;" type="V_WString" />
+                <Field name="Student_Username" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
+                <Field name="TimeTaken" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
+                <Field name="Money" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Banking" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Investments" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+                <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings Macro=".\admin_checks_6-8_big.yxmc" />
+        </Node>
       </ChildNodes>
     </Node>
     <Node ToolID="597">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="942" y="735" width="214" height="532" />
+        <Position x="994" y="754" width="215" height="533" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -4004,7 +4304,7 @@ Total Score = ToNumber([Money])+toNu...</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="595">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="967" y="787" width="60" height="72" />
+            <Position x="1019" y="806" width="60" height="72" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4024,7 +4324,7 @@ Total Score = ToNumber([Money])+toNu...</DefaultAnnotationText>
         </Node>
         <Node ToolID="596">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="967" y="1012" width="60" height="72" />
+            <Position x="1019" y="1031" width="60" height="72" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4044,7 +4344,7 @@ Total Score = ToNumber([Money])+toNu...</DefaultAnnotationText>
         </Node>
         <Node ToolID="92">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="1042" y="1027" />
+            <Position x="1094" y="1046" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4095,7 +4395,7 @@ Total Score = ToNumber([Money])+toNu...</DefaultAnnotationText>
         </Node>
         <Node ToolID="91">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="1042" y="787" />
+            <Position x="1094" y="806" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4148,7 +4448,7 @@ Total Score = ToNumber([Money])+toNu...</DefaultAnnotationText>
     </Node>
     <Node ToolID="602">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="327" y="1380" width="230" height="694" />
+        <Position x="379" y="1399" width="230" height="695" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -4164,7 +4464,7 @@ Total Score = ToNumber([Money])+toNu...</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="600">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="352" y="1432" width="60" height="72" />
+            <Position x="404" y="1451" width="60" height="72" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4184,7 +4484,7 @@ Total Score = ToNumber([Money])+toNu...</DefaultAnnotationText>
         </Node>
         <Node ToolID="601">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="352" y="1747" width="60" height="72" />
+            <Position x="404" y="1766" width="60" height="72" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4204,7 +4504,7 @@ Total Score = ToNumber([Money])+toNu...</DefaultAnnotationText>
         </Node>
         <Node ToolID="1">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="427" y="1432" />
+            <Position x="479" y="1451" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4242,7 +4542,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         </Node>
         <Node ToolID="2">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="427" y="1747" />
+            <Position x="479" y="1766" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4282,7 +4582,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="607">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="942" y="1395" width="214" height="550" />
+        <Position x="994" y="1414" width="215" height="551" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -4298,7 +4598,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="605">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="967" y="1447" width="60" height="72" />
+            <Position x="1019" y="1466" width="60" height="72" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4318,7 +4618,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         </Node>
         <Node ToolID="606">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="967" y="1702" width="60" height="72" />
+            <Position x="1019" y="1721" width="60" height="72" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4338,7 +4638,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         </Node>
         <Node ToolID="12">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="1042" y="1447" />
+            <Position x="1094" y="1466" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4387,7 +4687,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         </Node>
         <Node ToolID="13">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="1042" y="1687" />
+            <Position x="1094" y="1706" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4438,7 +4738,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="612">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="312" y="2085" width="229" height="695" />
+        <Position x="364" y="2104" width="230" height="695" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -4454,7 +4754,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="610">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="337" y="2137" width="60" height="72" />
+            <Position x="389" y="2156" width="60" height="72" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4474,7 +4774,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         </Node>
         <Node ToolID="611">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="337" y="2452" width="60" height="72" />
+            <Position x="389" y="2471" width="60" height="72" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4494,7 +4794,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         </Node>
         <Node ToolID="37">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="412" y="2137" />
+            <Position x="464" y="2156" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4532,7 +4832,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         </Node>
         <Node ToolID="38">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="412" y="2452" />
+            <Position x="464" y="2471" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4572,7 +4872,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="617">
       <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
-        <Position x="927" y="2115" width="243" height="532" />
+        <Position x="979" y="2134" width="244" height="533" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -4588,7 +4888,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
       <ChildNodes>
         <Node ToolID="615">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="952" y="2167" width="60" height="72" />
+            <Position x="1004" y="2186" width="60" height="72" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4608,7 +4908,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         </Node>
         <Node ToolID="616">
           <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
-            <Position x="952" y="2407" width="60" height="72" />
+            <Position x="1004" y="2426" width="60" height="72" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4628,7 +4928,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         </Node>
         <Node ToolID="50">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="1027" y="2167" />
+            <Position x="1079" y="2186" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4677,7 +4977,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         </Node>
         <Node ToolID="51">
           <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-            <Position x="1042" y="2407" />
+            <Position x="1094" y="2426" />
           </GuiSettings>
           <Properties>
             <Configuration>
@@ -4826,39 +5126,39 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Connection>
     <Connection Wireless="True">
       <Origin ToolID="419" Connection="Output" />
-      <Destination ToolID="575" Connection="Input50" />
+      <Destination ToolID="625" Connection="Input50" />
     </Connection>
     <Connection>
       <Origin ToolID="580" Connection="Output55" />
-      <Destination ToolID="575" Connection="Input51" />
+      <Destination ToolID="625" Connection="Input51" />
     </Connection>
     <Connection>
       <Origin ToolID="581" Connection="Output55" />
-      <Destination ToolID="575" Connection="Input53" />
+      <Destination ToolID="625" Connection="Input53" />
     </Connection>
     <Connection Wireless="True">
       <Origin ToolID="419" Connection="Output" />
-      <Destination ToolID="586" Connection="Input50" />
+      <Destination ToolID="622" Connection="Input50" />
     </Connection>
     <Connection>
       <Origin ToolID="578" Connection="Output55" />
-      <Destination ToolID="586" Connection="Input51" />
+      <Destination ToolID="622" Connection="Input51" />
     </Connection>
     <Connection>
       <Origin ToolID="579" Connection="Output55" />
-      <Destination ToolID="586" Connection="Input53" />
+      <Destination ToolID="622" Connection="Input53" />
     </Connection>
     <Connection Wireless="True">
       <Origin ToolID="419" Connection="Output" />
-      <Destination ToolID="585" Connection="Input50" />
+      <Destination ToolID="620" Connection="Input50" />
     </Connection>
     <Connection>
       <Origin ToolID="576" Connection="Output55" />
-      <Destination ToolID="585" Connection="Input51" />
+      <Destination ToolID="620" Connection="Input51" />
     </Connection>
     <Connection>
       <Origin ToolID="577" Connection="Output55" />
-      <Destination ToolID="585" Connection="Input53" />
+      <Destination ToolID="620" Connection="Input53" />
     </Connection>
     <Connection>
       <Origin ToolID="256" Connection="Output" />
@@ -4885,7 +5185,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
       <Destination ToolID="231" Connection="Input" />
     </Connection>
     <Connection name="#9" Wireless="True">
-      <Origin ToolID="585" Connection="Output14" />
+      <Origin ToolID="620" Connection="Output14" />
       <Destination ToolID="231" Connection="Input" />
     </Connection>
     <Connection name="#4" Wireless="True">
@@ -4897,7 +5197,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
       <Destination ToolID="231" Connection="Input" />
     </Connection>
     <Connection name="#8" Wireless="True">
-      <Origin ToolID="586" Connection="Output56" />
+      <Origin ToolID="622" Connection="Output56" />
       <Destination ToolID="231" Connection="Input" />
     </Connection>
     <Connection name="#1" Wireless="True">
@@ -4909,7 +5209,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
       <Destination ToolID="231" Connection="Input" />
     </Connection>
     <Connection name="#7" Wireless="True">
-      <Origin ToolID="575" Connection="Output56" />
+      <Origin ToolID="625" Connection="Output56" />
       <Destination ToolID="231" Connection="Input" />
     </Connection>
     <Connection>
@@ -4949,7 +5249,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
       <Destination ToolID="434" Connection="Right" />
     </Connection>
     <Connection>
-      <Origin ToolID="585" Connection="Output15" />
+      <Origin ToolID="620" Connection="Output15" />
       <Destination ToolID="434" Connection="Left" />
     </Connection>
     <Connection>
@@ -4983,6 +5283,10 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     <Connection name="#2">
       <Origin ToolID="577" Connection="Output9-10" />
       <Destination ToolID="273" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="620" Connection="Output18" />
+      <Destination ToolID="621" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="153" Connection="Output" />
@@ -5025,7 +5329,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
       <Destination ToolID="433" Connection="Right" />
     </Connection>
     <Connection>
-      <Origin ToolID="586" Connection="Output24" />
+      <Origin ToolID="622" Connection="Output24" />
       <Destination ToolID="433" Connection="Left" />
     </Connection>
     <Connection>
@@ -5069,6 +5373,10 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
       <Destination ToolID="191" Connection="Input" />
     </Connection>
     <Connection>
+      <Origin ToolID="622" Connection="Output26" />
+      <Destination ToolID="623" Connection="Input" />
+    </Connection>
+    <Connection>
       <Origin ToolID="252" Connection="Output" />
       <Destination ToolID="559" Connection="Input" />
     </Connection>
@@ -5101,7 +5409,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
       <Destination ToolID="432" Connection="Right" />
     </Connection>
     <Connection>
-      <Origin ToolID="575" Connection="Output60" />
+      <Origin ToolID="625" Connection="Output60" />
       <Destination ToolID="432" Connection="Left" />
     </Connection>
     <Connection>
@@ -5147,6 +5455,10 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     <Connection name="#1">
       <Origin ToolID="581" Connection="Output11-12" />
       <Destination ToolID="254" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="625" Connection="Output62" />
+      <Destination ToolID="624" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
@@ -5230,21 +5542,24 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         <Tool ToolId="359" Selected="True" />
         <Tool ToolId="361" Selected="True" />
         <Tool ToolId="363" Selected="True" />
-        <Tool ToolId="585" Selected="True" />
-        <Tool ToolId="575" Selected="True" />
-        <Tool ToolId="577" Selected="True" />
-        <Tool ToolId="547" Selected="True" />
         <Tool ToolId="531" Selected="True" />
-        <Tool ToolId="548" Selected="True" />
+        <Tool ToolId="546" Selected="True" />
+        <Tool ToolId="576" Selected="True" />
+        <Tool ToolId="577" Selected="True" />
+        <Tool ToolId="621" Selected="True" />
+        <Tool ToolId="532" Selected="True" />
+        <Tool ToolId="547" Selected="True" />
         <Tool ToolId="578" Selected="True" />
         <Tool ToolId="579" Selected="True" />
-        <Tool ToolId="532" Selected="True" />
-        <Tool ToolId="586" Selected="True" />
+        <Tool ToolId="623" Selected="True" />
+        <Tool ToolId="533" Selected="True" />
+        <Tool ToolId="548" Selected="True" />
         <Tool ToolId="580" Selected="True" />
         <Tool ToolId="581" Selected="True" />
-        <Tool ToolId="576" Selected="True" />
-        <Tool ToolId="533" Selected="True" />
-        <Tool ToolId="546" Selected="True" />
+        <Tool ToolId="620" Selected="True" />
+        <Tool ToolId="622" Selected="True" />
+        <Tool ToolId="624" Selected="True" />
+        <Tool ToolId="625" Selected="True" />
       </Wiz_OpenOutputTools>
       <Wiz_OutputMessage />
       <Wiz_NoOutputFilesMessage />

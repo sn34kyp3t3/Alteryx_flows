@@ -6,6 +6,7 @@
         <Position x="0" y="0" width="59" height="59" />
       </GuiSettings>
       <Properties>
+        <Configuration />
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText />
@@ -15,7 +16,7 @@
     </Node>
     <Node ToolID="41">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="1297" y="157" />
+        <Position x="1207" y="97" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -53,7 +54,7 @@
     </Node>
     <Node ToolID="42">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="727" y="307" />
+        <Position x="637" y="247" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -140,7 +141,7 @@
     </Node>
     <Node ToolID="43">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="847" y="382" />
+        <Position x="757" y="322" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -242,7 +243,7 @@
     </Node>
     <Node ToolID="44">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="997" y="472" />
+        <Position x="907" y="412" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -292,7 +293,7 @@
     </Node>
     <Node ToolID="45">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1102" y="472" />
+        <Position x="1012" y="412" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -330,7 +331,7 @@
     </Node>
     <Node ToolID="46">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="937" y="307" />
+        <Position x="847" y="247" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -380,7 +381,7 @@
     </Node>
     <Node ToolID="47">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1072" y="337" />
+        <Position x="982" y="277" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -418,7 +419,7 @@
     </Node>
     <Node ToolID="50">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="157" y="457" />
+        <Position x="67" y="397" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -442,11 +443,8 @@
           <Name />
           <DefaultAnnotationText>CVSSS (340201).xlsx
 Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
-          <Left value="False" />
+          <Left value="True" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
@@ -461,7 +459,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
     </Node>
     <Node ToolID="51">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="142" y="112" />
+        <Position x="52" y="52" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -485,11 +483,8 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
           <Name />
           <DefaultAnnotationText>TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx
 Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
-          <Left value="False" />
+          <Left value="True" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Candidates" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
@@ -511,7 +506,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="53">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="142" y="262" />
+        <Position x="52" y="202" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -542,11 +537,8 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText>Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv</DefaultAnnotationText>
-          <Left value="False" />
+          <Left value="True" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
@@ -572,7 +564,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="54">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="307" y="172" />
+        <Position x="217" y="112" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -692,7 +684,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="55">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1462" y="157" />
+        <Position x="1372" y="97" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -745,7 +737,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="56">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="1567" y="157" />
+        <Position x="1477" y="97" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -763,7 +755,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="58">
       <GuiSettings>
-        <Position x="487" y="157" />
+        <Position x="397" y="97" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -846,11 +838,11 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
           </RecordInfo>
         </MetaInfo>
       </Properties>
-      <EngineSettings Macro="..\..\..\Users\malho\Documents\Alteryx\v1.3\admin_checks_6-8.yxmc" />
+      <EngineSettings Macro="C:\Users\malho\Documents\Alteryx\OnlineExamMaker\v1.3\admin_checks_6-8.yxmc" />
     </Node>
     <Node ToolID="60">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="1507" y="322" />
+        <Position x="1417" y="262" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -868,7 +860,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="61">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="1387" y="307" />
+        <Position x="1297" y="247" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -903,6 +895,24 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
         </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1342" y="397" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output62</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Output</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
     </Node>
   </Nodes>
   <Connections>
@@ -979,6 +989,10 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
       <Destination ToolID="61" Connection="Input" />
     </Connection>
     <Connection>
+      <Origin ToolID="58" Connection="Output10" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
       <Origin ToolID="61" Connection="Output" />
       <Destination ToolID="60" Connection="Input" />
     </Connection>
@@ -1030,6 +1044,12 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
       <Constant>
         <Namespace>Question</Namespace>
         <Name>Macro Output (60)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (62)</Name>
         <Value />
         <IsNumeric value="False" />
       </Constant>
@@ -1100,6 +1120,12 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
               <Name>Macro Output (60)</Name>
               <ToolId value="60" />
             </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (62)</Description>
+              <Name>Macro Output (62)</Name>
+              <ToolId value="62" />
+            </Question>
           </Questions>
         </Question>
       </Questions>
@@ -1113,9 +1139,13 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
       <Wiz_CustomGraphic value="False" />
       <Wiz_ShowOutput value="True" />
       <Wiz_OpenOutputTools>
-        <Tool ToolId="58" Selected="True" />
+        <Tool ToolId="50" Selected="True" />
+        <Tool ToolId="51" Selected="True" />
+        <Tool ToolId="53" Selected="True" />
         <Tool ToolId="56" Selected="True" />
+        <Tool ToolId="58" Selected="True" />
         <Tool ToolId="60" Selected="True" />
+        <Tool ToolId="62" Selected="True" />
       </Wiz_OpenOutputTools>
       <Wiz_OutputMessage />
       <Wiz_NoOutputFilesMessage />
