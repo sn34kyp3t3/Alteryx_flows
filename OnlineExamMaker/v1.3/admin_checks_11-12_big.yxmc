@@ -629,7 +629,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="772" y="307" />
+        <Position x="787" y="487" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -721,7 +721,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="742" y="232" />
+        <Position x="772" y="232" />
       </GuiSettings>
       <Properties>
         <Configuration>

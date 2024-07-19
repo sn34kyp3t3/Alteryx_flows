@@ -815,9 +815,6 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output26">
           <RecordInfo>
             <Field name="Candidates" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
@@ -862,9 +859,6 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
         <MetaInfo connection="Output26">
           <RecordInfo>
             <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
@@ -1040,7 +1034,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
     </Node>
     <Node ToolID="52">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="1102" y="517" />
+        <Position x="1027" y="457" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">

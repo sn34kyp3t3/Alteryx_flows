@@ -3,7 +3,7 @@
   <Nodes>
     <Node ToolID="2">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="52" y="52" />
+        <Position x="52" y="67" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -15,7 +15,7 @@
           <FileInput>
             <Configuration>
               <Passwords />
-              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">..\..\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv</File>
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv</File>
               <FormatSpecificOptions>
                 <HeaderRow>True</HeaderRow>
                 <IgnoreErrors>False</IgnoreErrors>
@@ -36,6 +36,9 @@
           <DefaultAnnotationText>Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv</DefaultAnnotationText>
           <Left value="True" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
@@ -63,7 +66,7 @@
     </Node>
     <Node ToolID="3">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="52" y="352" />
+        <Position x="52" y="367" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -75,7 +78,7 @@
           <FileInput>
             <Configuration>
               <Passwords />
-              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">..\..\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv</File>
+              <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv</File>
               <FormatSpecificOptions>
                 <HeaderRow>True</HeaderRow>
                 <IgnoreErrors>False</IgnoreErrors>
@@ -96,6 +99,9 @@
           <DefaultAnnotationText>Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv</DefaultAnnotationText>
           <Left value="True" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
             <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
@@ -123,13 +129,13 @@
     </Node>
     <Node ToolID="4">
       <GuiSettings>
-        <Position x="172" y="52" />
+        <Position x="172" y="67" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <Value name="Check Box (135)">False</Value>
           <Value name="Check Box (136)">False</Value>
-          <Value name="List Box (11)">"Candidates","Registered Full Name","Registered Mob. No.","Roll Number","Status","Score","Percentage of Grade","Finish ratio","Taken time","IP","Time Used","Operating System"</Value>
+          <Value name="List Box (11)">"Candidates","Registered Full Name","Registered Mob. No.","Roll Number","Percentage of Grade"</Value>
           <Value name="Check Box (84)">True</Value>
           <Value name="Check Box (117)">True</Value>
           <Value name="Check Box (15)">True</Value>
@@ -146,6 +152,9 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output26">
           <RecordInfo>
             <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
@@ -173,7 +182,7 @@
     </Node>
     <Node ToolID="5">
       <GuiSettings>
-        <Position x="187" y="352" />
+        <Position x="187" y="367" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -223,7 +232,7 @@
     </Node>
     <Node ToolID="6">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="442" y="187" />
+        <Position x="442" y="202" />
       </GuiSettings>
       <Properties>
         <Configuration joinByRecordPos="False">
@@ -363,7 +372,7 @@
     </Node>
     <Node ToolID="7">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="592" y="172" />
+        <Position x="592" y="187" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -404,7 +413,7 @@
     </Node>
     <Node ToolID="8">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-        <Position x="1021" y="172" />
+        <Position x="1021" y="187" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -461,7 +470,7 @@
     </Node>
     <Node ToolID="9">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-        <Position x="1021" y="244" />
+        <Position x="1021" y="259" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -518,7 +527,7 @@
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-        <Position x="1009" y="316" />
+        <Position x="1009" y="331" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -575,7 +584,7 @@
     </Node>
     <Node ToolID="11">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-        <Position x="1009" y="532" />
+        <Position x="1009" y="547" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -632,7 +641,7 @@
     </Node>
     <Node ToolID="12">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-        <Position x="1009" y="460" />
+        <Position x="1009" y="475" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -689,7 +698,7 @@
     </Node>
     <Node ToolID="13">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-        <Position x="1009" y="388" />
+        <Position x="1009" y="403" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -746,7 +755,7 @@
     </Node>
     <Node ToolID="14">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-        <Position x="1009" y="604" />
+        <Position x="1009" y="619" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -803,7 +812,7 @@
     </Node>
     <Node ToolID="15">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="1201" y="232" />
+        <Position x="1201" y="247" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -844,7 +853,7 @@
     </Node>
     <Node ToolID="16">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="1153" y="424" />
+        <Position x="1153" y="439" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -885,7 +894,7 @@
     </Node>
     <Node ToolID="18">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="1162" y="562" />
+        <Position x="1162" y="577" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -939,7 +948,7 @@
     </Node>
     <Node ToolID="21">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="1537" y="247" />
+        <Position x="1537" y="262" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -957,7 +966,7 @@
     </Node>
     <Node ToolID="22">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="1477" y="412" />
+        <Position x="1477" y="427" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -975,7 +984,7 @@
     </Node>
     <Node ToolID="23">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="1462" y="562" />
+        <Position x="1462" y="577" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -993,7 +1002,7 @@
     </Node>
     <Node ToolID="25">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-        <Position x="262" y="352" />
+        <Position x="262" y="367" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1050,7 +1059,7 @@
     </Node>
     <Node ToolID="26">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-        <Position x="262" y="52" />
+        <Position x="262" y="67" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1107,7 +1116,7 @@
     </Node>
     <Node ToolID="27">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
-        <Position x="52" y="532" />
+        <Position x="52" y="547" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1119,7 +1128,7 @@
           <FileInput>
             <Configuration>
               <Passwords />
-              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">..\..\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`</File>
+              <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`</File>
               <FormatSpecificOptions>
                 <FirstRowData>False</FirstRowData>
                 <ImportLine>1</ImportLine>
@@ -1129,17 +1138,20 @@
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>Admin Sheet.xlsx
+          <DefaultAnnotationText>CVSSS (340201).xlsx
 Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
           <Left value="True" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="grade" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="Double" />
-            <Field name="phone" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="Double" />
-            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="Double" />
+            <Field name="phone" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="Double" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -1147,7 +1159,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
     </Node>
     <Node ToolID="28">
       <GuiSettings>
-        <Position x="262" y="532" />
+        <Position x="262" y="547" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1184,7 +1196,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
     </Node>
     <Node ToolID="29">
       <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
-        <Position x="172" y="532" />
+        <Position x="172" y="547" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1215,7 +1227,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
     </Node>
     <Node ToolID="30">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-        <Position x="367" y="502" />
+        <Position x="367" y="517" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1259,7 +1271,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
     </Node>
     <Node ToolID="31">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-        <Position x="367" y="562" />
+        <Position x="367" y="577" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1303,7 +1315,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
     </Node>
     <Node ToolID="32">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-        <Position x="367" y="622" />
+        <Position x="367" y="637" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1347,7 +1359,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
     </Node>
     <Node ToolID="33">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="502" y="547" />
+        <Position x="502" y="562" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1375,7 +1387,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
     </Node>
     <Node ToolID="34">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="577" y="547" />
+        <Position x="577" y="562" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1425,7 +1437,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
     </Node>
     <Node ToolID="37">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-        <Position x="367" y="712" />
+        <Position x="367" y="727" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1469,7 +1481,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
     </Node>
     <Node ToolID="38">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-        <Position x="367" y="757" />
+        <Position x="367" y="772" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1513,7 +1525,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
     </Node>
     <Node ToolID="39">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="517" y="727" />
+        <Position x="517" y="742" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1541,7 +1553,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
     </Node>
     <Node ToolID="40">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="607" y="712" />
+        <Position x="607" y="727" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1591,7 +1603,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
     </Node>
     <Node ToolID="41">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-        <Position x="367" y="847" />
+        <Position x="367" y="862" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1635,7 +1647,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
     </Node>
     <Node ToolID="42">
       <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
-        <Position x="367" y="907" />
+        <Position x="367" y="922" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1679,7 +1691,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
     </Node>
     <Node ToolID="43">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="502" y="862" />
+        <Position x="502" y="877" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1707,7 +1719,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
     </Node>
     <Node ToolID="44">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
-        <Position x="592" y="847" />
+        <Position x="592" y="862" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1757,7 +1769,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
     </Node>
     <Node ToolID="53">
       <GuiSettings>
-        <Position x="1327" y="652" />
+        <Position x="1327" y="667" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1768,20 +1780,11 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
         </Annotation>
         <MetaInfo connection="Output30">
           <RecordInfo>
-            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-          </RecordInfo>
-        </MetaInfo>
-        <MetaInfo connection="Output10">
-          <RecordInfo>
-            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Output9">
@@ -1804,6 +1807,15 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
             <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
             <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
             <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output10">
+          <RecordInfo>
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Output8">
@@ -1858,7 +1870,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
     </Node>
     <Node ToolID="52">
       <GuiSettings>
-        <Position x="1327" y="472" />
+        <Position x="1327" y="487" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1869,20 +1881,20 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
         </Annotation>
         <MetaInfo connection="Output34">
           <RecordInfo>
-            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Output10">
           <RecordInfo>
-            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Output9">
@@ -1959,7 +1971,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
     </Node>
     <Node ToolID="54">
       <GuiSettings>
-        <Position x="1327" y="307" />
+        <Position x="1327" y="322" />
       </GuiSettings>
       <Properties>
         <Configuration />
@@ -1970,42 +1982,20 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
         </Annotation>
         <MetaInfo connection="Output42">
           <RecordInfo>
-            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-          </RecordInfo>
-        </MetaInfo>
-        <MetaInfo connection="Output9">
-          <RecordInfo>
-            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
-            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
-            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
-            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
-            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
-            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
-            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
-            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
-            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
-            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
-            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
-            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
-            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
-            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
-            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
-            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
-            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
-            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Output10">
           <RecordInfo>
-            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
-            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\Admin Sheet.xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="student_username" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="name" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="grade" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="phone" size="2147483647" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
+            <Field name="email" size="255" source="File: C:\Users\malho\Documents\Admin_sheets\CVSSS (340201).xlsx|||`CVSSS (340201)$A1:E190`" type="V_String" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Output8">
@@ -2030,6 +2020,28 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
             <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
             <Field name="Error" size="1073741823" source="Formula: &quot;Invalid roll number entered&quot;" type="V_WString" />
             <Field name="Exam_written_for" size="1073741823" source="Formula: &quot;6-8&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output9">
+          <RecordInfo>
+            <Field name="Candidates" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Full Name" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Registered Mob. No." size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Roll Number" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Scores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Percentage of Grade" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="BankingScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Tax PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Financial PlanningScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="MoneyScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="InvestmentsScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
+            <Field name="Loans and CreditScores" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School.csv" type="V_WString" />
           </RecordInfo>
         </MetaInfo>
         <MetaInfo connection="Output20">
@@ -2060,7 +2072,7 @@ Query=`CVSSS (340201)$A1:E190`</DefaultAnnotationText>
     </Node>
     <Node ToolID="55">
       <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
-        <Position x="1087" y="37" />
+        <Position x="1087" y="52" />
       </GuiSettings>
       <Properties>
         <Configuration>

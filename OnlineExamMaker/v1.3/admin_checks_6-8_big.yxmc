@@ -338,12 +338,12 @@
           <OrderChanged value="False" />
           <CommaDecimal value="False" />
           <SelectFields>
-            <SelectField field="Candidates" selected="False" />
             <SelectField field="Right_student_username" selected="False" />
             <SelectField field="Right_name" selected="False" />
             <SelectField field="Right_grade" selected="False" />
             <SelectField field="Right_phone" selected="False" />
             <SelectField field="Right_email" selected="False" />
+            <SelectField field="Candidates" selected="False" />
             <SelectField field="Left_Right_student_username" selected="False" />
             <SelectField field="Left_Right_name" selected="False" />
             <SelectField field="Left_Right_grade" selected="False" />
@@ -357,25 +357,6 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="Registered Mob. No." size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="Roll Number" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="TimeTaken" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_11-1229thJune2024_(10records)(numbers1-10)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
-            <Field name="Money" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
-            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
-            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
-            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
-            <Field name="Banking" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
-            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
-            <Field name="Investments" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
-            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
-            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
-            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
-            <Field name="Error" size="1073741823" source="Formula: &quot;Invalid roll number entered&quot;" type="V_WString" />
-            <Field name="Exam_written_for" size="1073741823" source="Formula: &quot;6-8&quot;" type="V_WString" />
-          </RecordInfo>
-        </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
     </Node>
@@ -694,7 +675,7 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
             <SelectField field="Error" selected="True" />
             <SelectField field="Exam_written_for" selected="True" />
             <SelectField field="Registered Mob. No." selected="False" />
-            <SelectField field="Roll Number" selected="True" rename="Student_Username" />
+            <SelectField field="Roll Number" selected="True" rename="StudentUsername" />
             <SelectField field="TimeTaken" selected="True" />
             <SelectField field="Money" selected="True" />
             <SelectField field="Money_FullScore" selected="True" />
@@ -714,24 +695,6 @@ Query=`Taken Record of " Chinmaya...</DefaultAnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="Error" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
-            <Field name="Exam_written_for" size="1073741823" source="Formula: &quot;6-8&quot;" type="V_WString" />
-            <Field name="Student_Username" size="255" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="V_String" />
-            <Field name="TimeTaken" source="File: C:\Users\malho\Documents\CVSSS\TakenRecordof_ChinmayaVidyalayaSeniorSecondarySchool,Virugambakkam_6-829thJune2024_(84records)(numbers1-84)-2024-07-03.xlsx|||`Taken Record of &quot; Chinmaya Vid$`" type="Time" />
-            <Field name="Money" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
-            <Field name="Money_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
-            <Field name="Financial_Planning" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
-            <Field name="Financial_Planning_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
-            <Field name="Banking" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
-            <Field name="Banking_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
-            <Field name="Investments" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
-            <Field name="Investments_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
-            <Field name="Loans_And_Credit" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
-            <Field name="Loans_And_Credit_FullScore" size="254" source="File: C:\Users\malho\Documents\CVSSS\Export the score in categories of exam Chinmaya Vidyalaya Senior Secondary School(6-8).csv" type="V_WString" />
-          </RecordInfo>
-        </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
     </Node>
