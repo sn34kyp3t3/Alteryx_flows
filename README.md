@@ -1,8 +1,8 @@
 # Alteryx_flows
 
-## The Latest version for OnlineExamMaker flow right now is v1.3.3
+## The Latest version for OnlineExamMaker flow right now is 1.3.3
 
-## The Latest version for Eklavvya flow right now is v1.0
+## The Latest version for Eklavvya flow right now is 1.0
 
 **When to Use Column_correction.yxmd:**
 
